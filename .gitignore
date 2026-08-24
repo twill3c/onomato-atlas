@@ -13,3 +13,4 @@ node_modules/
 web/.next/
 web/out/
 .vercel/
+data/index_cache/*.csv
