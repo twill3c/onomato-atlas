@@ -1,0 +1,15 @@
+# 中間キャッシュ(青空文庫コーパスから再生成できる)
+data/cooc.json
+data/bronze/
+data/raw/
+data/cache/
+data/lines/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+
+node_modules/
+web/.next/
+web/out/
+.vercel/
