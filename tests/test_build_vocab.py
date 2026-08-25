@@ -80,3 +80,33 @@ def test_t137_q01標本は指定した語の出現だけから引かれる():
     s = build_vocab.false_positive_sample(TEXTS, n=10, seed=1, targets={"きらきら"})
     assert s, "標本が空"
     assert {x["surface"] for x in s} == {"きらきら"}
+
+
+# --- 人手判定の保護(HC-005・2026-08-25 に判定を失った事故を受けて) ---
+
+@pytest.mark.unit
+def test_t170_判定済みの標本を上書きしない(tmp_path):
+    p = tmp_path / "q01_sample.tsv"
+    p.write_text(
+        "# 既存の標本\nsurface\tpos\tis_false_positive\tcontext\n"
+        "きらきら\t副詞\t1\t文脈\n", encoding="utf-8")
+    with pytest.raises(build_vocab.JudgedSampleExists):
+        build_vocab.write_sample(p, [{"surface": "ばたばた", "pos": "副詞", "context": "文脈"}])
+    assert "1" in p.read_text(encoding="utf-8"), "判定が残っている"
+
+
+@pytest.mark.unit
+def test_t171_判定が無ければ上書きしてよい(tmp_path):
+    p = tmp_path / "q01_sample.tsv"
+    p.write_text(
+        "# 既存の標本\nsurface\tpos\tis_false_positive\tcontext\n"
+        "きらきら\t副詞\t\t文脈\n", encoding="utf-8")
+    build_vocab.write_sample(p, [{"surface": "ばたばた", "pos": "副詞", "context": "新しい文脈"}])
+    assert "ばたばた" in p.read_text(encoding="utf-8")
+
+
+@pytest.mark.unit
+def test_t172_ファイルが無ければ新規作成する(tmp_path):
+    p = tmp_path / "q01_sample.tsv"
+    build_vocab.write_sample(p, [{"surface": "きらきら", "pos": "副詞", "context": "文脈"}])
+    assert p.exists() and "きらきら" in p.read_text(encoding="utf-8")

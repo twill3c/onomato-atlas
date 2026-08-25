@@ -138,6 +138,40 @@ def build(texts, min_freq: int = 5, decisions_path=None) -> dict:
     }
 
 
+class JudgedSampleExists(Exception):
+    """人手判定の入った標本を上書きしようとした(HC-005)。"""
+
+
+def write_sample(path, sample, header: str = "") -> None:
+    """Q-01 標本を書き出す。**既存ファイルに人手判定があれば上書きしない**。
+
+    2026-08-25、再生成が判定済みの標本を無警告で上書きし、コミット前だったため
+    人間の判定を失った(S1)。測定の証拠は再生成より優先する。
+    """
+    import csv as _csv
+    from pathlib import Path as _Path
+
+    path = _Path(path)
+    if path.exists():
+        for line in path.read_text(encoding="utf-8").splitlines():
+            if line.startswith("#") or line.startswith("surface"):
+                continue
+            cols = line.split("	")
+            if len(cols) >= 3 and cols[2].strip():
+                raise JudgedSampleExists(
+                    f"{path} に人手判定がある。上書きせず、別名で出力するか "
+                    f"判定を gold/ へ退避してから再実行すること(HC-005)"
+                )
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as f:
+        if header:
+            f.write(header if header.endswith(chr(10)) else header + chr(10))
+        w = _csv.writer(f, delimiter="	")
+        w.writerow(["surface", "pos", "is_false_positive", "context"])
+        for s_ in sample:
+            w.writerow([s_["surface"], s_["pos"], "", s_["context"]])
+
+
 def _load_raw(raw_dir):
     from pipeline import aozora_text
 
@@ -182,13 +216,14 @@ def main(argv=None) -> int:
         json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 
     sample = false_positive_sample(texts, n=args.sample, seed=args.seed, targets=adopted)
-    with (root / "data" / "curated" / "q01_sample.tsv").open("w", encoding="utf-8", newline="") as f:
-        f.write(f"# Q-01 検査標本 {len(sample)} 件(seed={args.seed})。"
-                "偽陽性なら is_false_positive 列に 1 を書く。判定は人間が行う\n")
-        w = csv.writer(f, delimiter="\t")
-        w.writerow(["surface", "pos", "is_false_positive", "context"])
-        for s in sample:
-            w.writerow([s["surface"], s["pos"], "", s["context"]])
+    try:
+        write_sample(
+            root / "data" / "curated" / "q01_sample.tsv", sample,
+            header=f"# Q-01 検査標本 {len(sample)} 件(seed={args.seed})。"
+                   "偽陽性なら is_false_positive 列に 1 を書く。判定は人間が行う",
+        )
+    except JudgedSampleExists as e:
+        print(f"警告: Q-01 標本を更新しなかった — {e}", flush=True)
 
     with (root / "data" / "curated" / "needs_review_worksheet.tsv").open("w", encoding="utf-8", newline="") as f:
         f.write(f"# needs_review ワークシート({len(out['needs_review'])} 語・頻度順)\n")
