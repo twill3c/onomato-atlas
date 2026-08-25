@@ -1,0 +1,48 @@
+{
+  "id": "O-3",
+  "title": "ブーバ/キキ効果の日本語オノマトペへの写像 — 事前登録",
+  "registered_on": "2026-08-25",
+  "status": "registered",
+  "lock": "L2 のコミット後は変更禁止。変更が必要になった場合は新しい登録 ID を切り、旧登録は残す",
+  "rationale": {
+    "sources": [
+      "Köhler, W. (1929) Gestalt Psychology — maluma / takete",
+      "Ramachandran, V. S. & Hubbard, E. M. (2001) Synaesthesia — bouba / kiki"
+    ],
+    "note": "先行研究が確立しているのは『破裂音+高前舌母音 → 尖鋭』『共鳴音+円唇母音 → 円滑』という方向であって、日本語オノマトペのコーパス分布で同じ方向が出るかは未知である。本登録はその予測方向を、結果を見る前に固定するためのものである。"
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "claim": "語頭が無声破裂音(k / t / p)の語は、語頭が共鳴音(m / n / r / w / 子音なし)の語より、『衝撃・打撃』プローブ語との共起が高い",
+      "group_a": {"onset1": ["k", "t", "p"]},
+      "group_b": {"onset1": ["m", "n", "r", "w", ""]},
+      "probes": ["叩く", "打つ", "当たる", "ぶつかる", "弾く", "割れる", "砕く", "鳴る"],
+      "direction": "a > b"
+    },
+    {
+      "id": "H2",
+      "claim": "語幹母音に i を含む語は、i を含まない語より、『鋭・細・小』プローブ語との共起が高い",
+      "group_a": {"vowels_contain": "i"},
+      "group_b": {"vowels_not_contain": "i"},
+      "probes": ["細い", "鋭い", "尖る", "刺す", "小さい", "針", "糸"],
+      "direction": "a > b"
+    }
+  ],
+  "procedure": {
+    "measure": "語ごとに、プローブ語との PPMI の合計を求める(意味側チャネルのみから計算する。音側素性は群分けにしか使わない)",
+    "test": "群間の平均差に対する並べ替え検定(permutation test)",
+    "permutations": 10000,
+    "seed": 20260825,
+    "alternative": "one-sided",
+    "alpha": 0.05,
+    "multiple_comparison": "Holm 補正(仮説 2 件)",
+    "min_group_size": 10
+  },
+  "decision_rule": {
+    "pass": "事前登録した方向と一致し、Holm 補正後 p < 0.05",
+    "fail": "上記を満たさない場合は『通らなかった』と表示する。閾値・プローブ語・群定義を事後に変更してはならない(F-22)",
+    "note": "群サイズが min_group_size に満たない場合は『検出力不足』として報告し、通過とも不通過とも書かない"
+  },
+  "scope_note": "濁音化の効果(清音 vs 濁音)は O-2 が扱う。本登録は重複を避けるため H1/H2 に限定する"
+}

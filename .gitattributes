@@ -1,0 +1,10 @@
+# 既定はテキストとして扱い、作業コピーの改行を LF に固定する。
+# Windows の autocrlf に左右されると、ハッシュで封印したファイルが別マシンで壊れる。
+* text=auto eol=lf
+
+# 事前登録は sha256 で封印している(T-035)。改行変換を一切させない。
+gold/o3_preregistration.json -text
+
+# 生成データ成果物は差分を出さない
+data/vocab_manifest.json -diff
+data/corpus_manifest.json -diff
