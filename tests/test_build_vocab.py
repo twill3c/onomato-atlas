@@ -3,9 +3,13 @@
 期待値の出所: SPEC §4.2・§6、および 2026-08-25 の実測。
 件数は定数で書かず、不変量(集合の一致・欠落の不在・単調性)で書く。
 """
+from pathlib import Path
+
 import pytest
 
 from pipeline import build_vocab
+
+FIX = Path(__file__).parent / "fixtures" / "vocab_decisions_mini.tsv"
 
 
 TEXTS = [
@@ -46,7 +50,7 @@ def test_t133_密度レポートは語ごとの異なり共起語数を返す():
 
 @pytest.mark.unit
 def test_t134_成果物に採否と理由と表版が揃う():
-    out = build_vocab.build(TEXTS, min_freq=1)
+    out = build_vocab.build(TEXTS, min_freq=1, decisions_path=FIX)
     m = out["vocab"]
     assert all(r["reason"] for r in m.values()), "理由が空の採否を残さない(F-07)"
     assert all(r["table_version"] for r in m.values())
@@ -57,7 +61,7 @@ def test_t134_成果物に採否と理由と表版が揃う():
 
 @pytest.mark.unit
 def test_t135_変化形は語幹が採用されているときだけ採用される():
-    out = build_vocab.build(TEXTS, min_freq=1)
+    out = build_vocab.build(TEXTS, min_freq=1, decisions_path=FIX)
     assert out["vocab"]["きらり"]["decision"] == "adopted"
 
 

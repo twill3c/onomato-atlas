@@ -1,0 +1,8 @@
+# vocab_decisions v0.0.1-fixture
+# テスト専用の固定判定表。本番の data/curated/vocab_decisions.tsv に依存しないため
+# 用意している。本番表は curation の進行で正当に増えるので、テストが結合してはならない
+word	decision	reason
+きらきら	adopted	テスト用の採用語
+ばたばた	adopted	テスト用の採用語
+とうとう	rejected	テスト用の除外語
+なかなか	rejected	テスト用の除外語

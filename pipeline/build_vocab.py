@@ -110,11 +110,15 @@ def false_positive_sample(texts, n: int = 100, seed: int = 0, window: int = 20,
     return rng.sample(hits, min(n, len(hits)))
 
 
-def build(texts, min_freq: int = 5) -> dict:
-    """語彙を確定し、成果物一式を返す(F-07)。"""
+def build(texts, min_freq: int = 5, decisions_path=None) -> dict:
+    """語彙を確定し、成果物一式を返す(F-07)。
+
+    `decisions_path` はテストが本番の判定表に結合しないための注入口。本番表は curation の
+    進行で正当に増えるので、テストが直接読むと正しい変更で落ちる(2026-08-25 に実際に落ちた)。
+    """
     tal = extract.tally(texts)
     kept = {w: c for w, c in tal.items() if c >= min_freq}
-    v = curate.build(kept)
+    v = curate.build(kept, decisions_path=decisions_path)
     manifest = v.manifest()
     for w, rec in manifest.items():
         rec["freq"] = kept.get(w, 0)

@@ -1,0 +1,375 @@
+# vocab_proposals — エージェントによる採否の【提案】。決定ではない
+# 生成 2026-08-25 / 対象 vocab_manifest.json の needs_review 全件
+# proposed 列: adopted(採用提案) / rejected(除外提案) / hold(判断が割れるので人手を仰ぐ)
+# approved 列に adopted / rejected を書けば提案を上書きできる。空欄なら提案どおり
+# 提案の作り方: 明示した除外語と保留語を列挙し、残りはすべて採用提案とした
+#   判定基準は SPEC §4.2。この表は curate.py から読まれない(承認後に vocab_decisions.tsv へ反映する)
+# 承認 2026-08-25: 採用提案のみを承認した。rejected 提案 25 語と hold 20 語は needs_review のまま据え置く
+word	freq	ctx_types	proposed	reason	approved
+そろそろ	938		hold	原義は様態(そろりそろり)だが近代コーパスでは時間用法が優勢。頻度938で影響が最大なので人手判断を仰ぐ	
+はははは	550		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+うろうろ	384		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+いらいら	295		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぐんぐん	255		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+つかつか	244		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぼろぼろ	231		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぱちぱち	226		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+いそいそ	225		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+こつこつ	216		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ひそひそ	213		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ごたごた	210		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+まごまご	203		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+がやがや	198		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+びくびく	197		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+こそこそ	193		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+おどおど	191		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+どきどき	191		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+まじまじ	181		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+かんかん	180		hold	金属音(擬音)と激怒(擬態)の両義。どちらで採るかで語感軸への寄与が変わる	
+むらむら	178		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+むくむく	175		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぐいぐい	159		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+どやどや	157		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+どしどし	156		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ざわざわ	153		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+おろおろ	152		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+わなわな	150		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+げらげら	150		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+おずおず	148		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぞくぞく	144		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+わくわく	141		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+わいわい	138		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+のこのこ	138		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+とぼとぼ	134		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+しくしく	134		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+じめじめ	133		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぽんぽん	133		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+がさがさ	131		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+すれすれ	128		rejected	擦れ擦れ。動詞反復で、近代語では程度(かろうじて)の意が主	
+すやすや	124		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぼつぼつ	123		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+のろのろ	119		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ずかずか	119		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+うかうか	118		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ごそごそ	115		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+かちかち	113		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ひしひし	113		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+くどくど	111		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぷんぷん	109		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+しんしん	103		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぱらぱら	100		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+せかせか	99		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぼそぼそ	99		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぺこぺこ	96		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+もやもや	94		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+べらべら	91		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+かさかさ	91		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぴくぴく	90		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ひたひた	90		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+こんこん	89		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ごしごし	88		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ちかちか	88		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぽろぽろ	87		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぴりぴり	84		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+むかむか	84		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぶくぶく	84		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+くよくよ	80		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+しとしと	79		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+つるつる	78		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ごうごう	77		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+すごすご	77		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+なみなみ	77		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+へへへへ	76		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+へとへと	76		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+へらへら	74		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+よちよち	73		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+しぶしぶ	71		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぱんぱん	71		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+くりくり	70		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ひくひく	69		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+がくがく	69		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぴんぴん	68		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+がみがみ	68		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+うようよ	66		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぼうぼう	66		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ほほほほ	65		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+てらてら	65		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+きびきび	64		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+がりがり	64		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+がんがん	63		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ばりばり	62		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+たじたじ	61		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぐうぐう	61		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+びりびり	59		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+てくてく	58		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ずたずた	57		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+がつがつ	57		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+はきはき	56		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+にたにた	56		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+めらめら	56		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぺらぺら	56		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+はあはあ	56		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+まずまず	56		rejected	程度の副詞。模写性がない	
+もぐもぐ	55		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+だぶだぶ	55		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+むずむず	53		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ざくざく	53		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ほくほく	53		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+つやつや	53		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぴちぴち	53		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+べとべと	52		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+もくもく	52		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+よぼよぼ	52		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ずけずけ	51		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+すくすく	51		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+よれよれ	51		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ごみごみ	51		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ふうふう	50		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぷりぷり	50		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ひりひり	50		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+どかどか	48		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+こちこち	48		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+すいすい	48		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+まちまち	48		rejected	区々。ばらつきを表す語で模写性がない	
+めきめき	47		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+まにまに	47		rejected	随に。「波のまにまに」の慣用で模写性がない	
+さばさば	47		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ごくごく	46		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぶんぶん	45		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ずきずき	45		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+くんくん	45		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+めそめそ	44		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ふさふさ	44		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ちびちび	44		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+もぞもぞ	44		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ちんちん	43		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ざぶざぶ	43		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+よたよた	43		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぶよぶよ	42		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ごつごつ	42		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ばさばさ	41		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ちろちろ	41		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぎしぎし	41		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+くたくた	40		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+そよそよ	39		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+わんわん	39		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+のめのめ	39		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぱっぱっ	39		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぜんぜん	38		rejected	全然。漢語反復の程度副詞	
+わあわあ	38		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ゆうゆう	38		rejected	悠々。漢語反復	
+ぬるぬる	38		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+くっくっ	37		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぬけぬけ	37		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+らんらん	37		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぐりぐり	37		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぼんぼん	36		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+うきうき	35		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+うずうず	35		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+じきじき	34		rejected	直々。漢語反復	
+ほうほう	34		hold	「ほうほうの体」の慣用と鳴き声の両義	
+ひいひい	34		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+きいきい	34		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+どくどく	34		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぴたぴた	33		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+くさくさ	33		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ちりちり	33		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+くつくつ	33		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+めりめり	33		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+むんむん	33		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+さやさや	32		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぺろぺろ	32		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+うらうら	32		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぬらぬら	32		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぬくぬく	31		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ざあざあ	31		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+うんうん	31		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+てかてか	31		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぱくぱく	31		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ねちねち	30		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+すぱすぱ	30		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+じわじわ	30		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+みしみし	30		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+くねくね	29		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+じとじと	29		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+へなへな	29		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+なよなよ	29		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+さくさく	29		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+じくじく	29		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+こてこて	28		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+とことこ	28		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+じんじん	28		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+さんさん	28		rejected	燦々/散々。漢語反復	
+ぱりぱり	28		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぴしぴし	28		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+がちがち	28		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぺたぺた	27		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+でかでか	26		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+さっさっ	26		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぽとぽと	26		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+やいやい	26		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ずばずば	26		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぼりぼり	26		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+べつべつ	26		rejected	別々。漢語反復	
+きんきん	25		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+かくかく	25		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぜいぜい	25		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+けらけら	25		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぽくぽく	25		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ゆさゆさ	24		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+かつかつ	24		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ふつふつ	24		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぼやぼや	23		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+のうのう	23		hold	「のうのうと」は様態だが語源が不明瞭	
+ふりふり	23		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ふかふか	23		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ねばねば	23		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+わらわら	22		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+あきあき	22		rejected	飽き飽き。動詞反復	
+ぶすぶす	21		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+へたへた	21		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+りんりん	21		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぐつぐつ	20		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+けちけち	20		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+べろべろ	20		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぎいぎい	20		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぎざぎざ	20		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぶうぶう	19		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+こせこせ	19		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぴいぴい	19		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+なでなで	19		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+つんつん	18		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ほやほや	18		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+もそもそ	18		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ずぶずぶ	18		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+とげとげ	17		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+げじげじ	17		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+びしびし	17		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ごんごん	17		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ごりごり	17		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+おんおん	17		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+むしむし	17		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+しらしら	17		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+こりこり	17		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ごぼごぼ	16		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+じいじい	16		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+つけつけ	16		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ふくふく	16		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぺっぺっ	16		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ごてごて	16		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+かっかっ	16		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+よりより	16		rejected	寄り寄り。頻度の副詞	
+ぼとぼと	16		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぶりぶり	16		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+だくだく	15		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+があがあ	15		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぽちぽち	15		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+さわさわ	15		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+もごもご	15		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぽきぽき	15		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+うそうそ	15		hold	用例が少なく語義を特定できない	
+しなしな	14		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+けんけん	14		hold	片足跳びの名詞と鳴き声の両義	
+ぽりぽり	14		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+うじうじ	14		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぷかぷか	14		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+もりもり	14		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+やあやあ	14		hold	呼びかけの感動詞	
+ぎろぎろ	14		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ごわごわ	13		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+でんでん	13		hold	太鼓の音とでんでん虫の両義	
+ぱさぱさ	13		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ねんねん	13		rejected	年々。漢語反復	
+えんえん	13		hold	泣き声の擬音と、延々(漢語反復)の同音衝突	
+ふがふが	13		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+あいあい	12		rejected	藹々/相々。漢語反復	
+しめしめ	12		hold	内心の喜びを表す慣用の感動詞。音・様態の模写とは言いにくい	
+ずらずら	12		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+たったっ	12		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+らくらく	12		rejected	楽々。漢語反復	
+うつうつ	12		rejected	鬱々。漢語反復	
+ぺんぺん	12		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぽそぽそ	11		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+てんてん	11		rejected	点々/転々。漢語反復	
+びんびん	11		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぽこぽこ	11		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+きしきし	11		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+みんみん	11		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぷつぷつ	11		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぴらぴら	11		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+のちのち	10		rejected	後々。漢語反復	
+いんいん	10		hold	殷々(響き)と陰々(暗さ)の同音衝突。どちらも漢語反復	
+ぬめぬめ	10		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ふんふん	10		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+どどどど	10		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+おさおさ	10		rejected	「おさおさ怠りなく」の慣用副詞。模写性がない	
+ばちばち	9		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+がばがば	9		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+かりかり	9		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+とっとっ	9		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+へっへっ	9		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ねとねと	9		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ふっふっ	9		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぼこぼこ	9		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ほかほか	9		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぽっぽっ	9		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぼたぼた	9		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぎちぎち	8		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+びたびた	8		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+さあさあ	8		hold	促しの掛け声。感動詞であり模写ではない可能性	
+ほどほど	8		rejected	程々。漢語反復	
+でれでれ	8		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ずうずう	8		hold	「ずうずうしい」の語幹。副詞単独の用例が薄い	
+ぼさぼさ	8		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+げたげた	8		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+えいえい	8		hold	掛け声。擬音とみなすかは判断が割れる	
+すうすう	8		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぎすぎす	8		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+かあかあ	8		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+むちむち	8		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+まんまん	7		rejected	満々。漢語反復	
+ぷちぷち	7		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぷすぷす	7		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぐびぐび	7		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+へろへろ	7		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+じゅじゅ	7		hold	用例が少なく語義を特定できない	
+ぷうぷう	7		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぼちぼち	7		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+げえげえ	7		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+こいこい	7		hold	呼びかけ(来い来い)の可能性が高い	
+ぶわぶわ	7		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+だだだだ	7		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+いじいじ	6		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+もたもた	6		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ばくばく	6		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+すっすっ	6		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+かなかな	6		hold	蜩の鳴き声(擬音)だが虫の名としても使われる	
+すがすが	6		hold	清々。形容詞語幹で副詞単独の用例が薄い	
+もちもち	6		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+もうもう	6		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ちっちっ	6		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぷっぷっ	6		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぱかぱか	6		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+くなくな	6		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+じょじょ	6		rejected	徐々。漢語反復	
+みりみり	5		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぱきぱき	5		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+じゃじゃ	5		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+たんたん	5		rejected	淡々/坦々。漢語反復	
+たぷたぷ	5		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぜえぜえ	5		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+さいさい	5		rejected	再々。漢語反復	
+びらびら	5		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+こよこよ	5		hold	用例が少なく語義を特定できない	
+はりはり	5		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+かすかす	5		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+のしのし	5		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+もさもさ	5		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+きゅきゅ	5		hold	用例が少なく語義を特定できない	
+ぷるぷる	5		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ぷくぷく	5		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+なぞなぞ	5		rejected	謎々。名詞反復	
+ほいほい	5		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ちまちま	5		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+ごほごほ	5		adopted	音・声・様態を模す語(SPEC §4.2 採用)	adopted
+まえまえ	5		rejected	前々。漢語反復	
