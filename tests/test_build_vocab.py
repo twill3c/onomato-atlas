@@ -110,3 +110,11 @@ def test_t172_ファイルが無ければ新規作成する(tmp_path):
     p = tmp_path / "q01_sample.tsv"
     build_vocab.write_sample(p, [{"surface": "きらきら", "pos": "副詞", "context": "文脈"}])
     assert p.exists() and "きらきら" in p.read_text(encoding="utf-8")
+
+
+@pytest.mark.unit
+def test_t176_軽動詞リストは版付きファイルから読まれる():
+    # F-13: 測定器を無記名で差し替えられないようにする(AGENTS §3)
+    assert build_vocab.LIGHT_VERBS_VERSION != "hardcoded"
+    assert "為る" in build_vocab.LIGHT_VERBS
+    assert len(build_vocab.LIGHT_VERBS) >= 10

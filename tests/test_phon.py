@@ -12,7 +12,7 @@ from pipeline import phon
 
 PIPELINE = Path(__file__).resolve().parents[1] / "pipeline"
 # 意味側を構成するモジュール。ここに音側(phon)を import してはならない(F-00)
-SEMANTIC_MODULES = ("build_vocab.py", "sem.py")
+SEMANTIC_MODULES = ("build_vocab.py", "sem.py", "build_sem.py")
 
 
 @pytest.mark.unit

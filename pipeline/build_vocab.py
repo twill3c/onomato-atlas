@@ -12,15 +12,14 @@ from __future__ import annotations
 import random
 from collections import Counter, defaultdict
 
-from pipeline import curate, extract
+from pathlib import Path
 
-# 軽動詞ストップリスト v1.0.0(2026-08-25)
-# 実測: これを除かないと きらきら→為る(16)、そわそわ→為る(30) のように
-# 意味を持たない軽動詞が係り先を支配する(docs/concept.md §2 実測 7)
-LIGHT_VERBS_VERSION = "1.0.0"
-LIGHT_VERBS = frozenset(
-    "為る 成る 居る 有る 遣る 来る 行く 仕舞う 出来る 見る 言う 思う 成す 致す 下さる".split()
-)
+from pipeline import curate, extract, sem
+
+# 軽動詞ストップリストは版付きファイルから読む(F-13)。
+# 定数で持つと無記名で差し替えられ、感度分析(F-14)の対象から外れる。
+_STOPLIST_PATH = Path(__file__).resolve().parents[1] / "data" / "curated" / "light_verbs.tsv"
+LIGHT_VERBS_VERSION, LIGHT_VERBS = sem.load_stoplist(_STOPLIST_PATH)
 CONTENT_POS = ("動詞", "形容詞", "名詞", "形状詞", "副詞")
 
 
