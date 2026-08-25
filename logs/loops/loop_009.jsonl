@@ -1,0 +1,1 @@
+{"v": "1.2", "ts": "2026-08-25T11:31:47+09:00", "project": "onomato-atlas", "loop_id": "loop_009", "event": "loop_start", "data": {"goal": "Q-01 の再測定(独立標本 seed 20260826)を人手判定で確定し、恒久記録と品質基準を SPEC に書く", "spec_refs": ["Q-01"], "scaffold_version": "1.12.0", "agent": "claude-code", "model": "claude-opus-5[1m]"}}
