@@ -16,6 +16,7 @@ export type Word = {
 export type AxisMeta = {
   id: string; name: string; source: string;
   density_floor: number | null; reliability: number | null;
+  sd: number; sem: number | null;
   n_scored: number;
   stats: { n: number; same_direction?: number; mean_cos?: number;
            p_binomial: number; control_p_empirical: number; control_z_ratio?: number };

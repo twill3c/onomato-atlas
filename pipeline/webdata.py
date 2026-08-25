@@ -9,6 +9,8 @@
 """
 from __future__ import annotations
 
+from statistics import stdev as _stdev
+
 from pipeline import extract, phon
 
 
@@ -54,11 +56,19 @@ def build(axes_doc: dict, vocab: dict, examples_doc: dict,
                     "stem_score": p[stem], "variant_score": p[w],
                     "delta": round(p[w] - p[stem], 4),
                 })
-    axes_meta = [{
-        "id": a["id"], "name": a["name"], "source": a.get("source", ""),
-        "density_floor": a.get("density_floor"), "reliability": a.get("reliability"),
-        "stats": a["stats"], "n_scored": len(a.get("projections", {})),
-    } for a in adopted_axes]
+    axes_meta = []
+    for a in adopted_axes:
+        vals = list(a.get("projections", {}).values())
+        sd = float(_stdev(vals)) if len(vals) > 1 else 0.0
+        rel = a.get("reliability")
+        # 測定の標準誤差 SEM = σ√(1-r)。信頼性が不明なら誤差を偽らない
+        sem = round(sd * ((1.0 - rel) ** 0.5), 5) if rel is not None else None
+        axes_meta.append({
+            "id": a["id"], "name": a["name"], "source": a.get("source", ""),
+            "density_floor": a.get("density_floor"), "reliability": rel,
+            "sd": round(sd, 5), "sem": sem,
+            "stats": a["stats"], "n_scored": len(a.get("projections", {})),
+        })
     rejected = [{
         "id": a["id"], "name": a["name"], "stats": a["stats"], "decision": "rejected",
     } for a in axes_doc["axes"] if a["decision"] != "adopted"]

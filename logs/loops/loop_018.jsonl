@@ -1,0 +1,1 @@
+{"v": "1.2", "ts": "2026-08-25T21:26:23+09:00", "project": "onomato-atlas", "loop_id": "loop_018", "event": "loop_start", "data": {"goal": "語一覧と語ページ(用例・音側素性・軸スコアの帯)を実装する。誤差を隠さない", "spec_refs": ["F-32", "F-32b", "N-05"], "scaffold_version": "1.12.0", "agent": "claude-code", "model": "claude-opus-5[1m]"}}

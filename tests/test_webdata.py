@@ -100,3 +100,21 @@ def test_t238_形態対に濁音対が混じらない():
     doc = webdata.build(AXES, VOCAB, {})
     for p in doc["paradigms"]:
         assert p["variant"][:2] == p["stem"][:2], "形態対でない組が混じっている"
+
+
+@pytest.mark.unit
+def test_t239_軸に測定の標準誤差が付く():
+    """語ページは点でなく帯で描く。信頼性から標準誤差を出す(SEM = σ√(1-r))。"""
+    doc = webdata.build(AXES, VOCAB, {})
+    ax = doc["axes"][0]
+    assert ax["sd"] > 0
+    assert ax["sem"] > 0
+    assert ax["sem"] < ax["sd"], "信頼性が 0 でない限り SEM は SD より小さい"
+
+
+@pytest.mark.unit
+def test_t240_信頼性が無ければ標準誤差も出さない():
+    axes = {"criterion": {"alpha": 0.05}, "axes": [
+        {**AXES["axes"][0], "reliability": None}]}
+    doc = webdata.build(axes, VOCAB, {})
+    assert doc["axes"][0]["sem"] is None, "信頼性不明で誤差を偽ってはならない"
