@@ -22,6 +22,11 @@ def main():
     print(f"読込 {len(texts)} 作品 / {sum(len(t) for t in texts):,} 字", flush=True)
 
     ctx = build_vocab.cooccurrence(texts, adopted)
+    # 共起カウントを保存する。以後の解析(O-3 のプローブ語 PPMI 等)が
+    # 46M 字の再トークン化を要らなくなる
+    (ROOT / "data" / "cooc_counts.json").write_text(
+        json.dumps({w: dict(c) for w, c in ctx.items()}, ensure_ascii=False),
+        encoding="utf-8")
     words, cols, M = sem.build_matrix(ctx, min_ctx_count=5)
     print(f"行列 {M.shape[0]} 語 x {M.shape[1]} 文脈語 / 非零率 {(M > 0).mean():.2%}", flush=True)
 

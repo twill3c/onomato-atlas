@@ -1,0 +1,1 @@
+{"v": "1.2", "ts": "2026-08-25T11:53:28+09:00", "project": "onomato-atlas", "loop_id": "loop_012", "event": "loop_start", "data": {"goal": "事前登録どおりに O-3(ブーバ/キキ)を実行し、O-2 の濁音対の人手選別リストを用意する", "spec_refs": ["O-2", "O-3", "F-21"], "scaffold_version": "1.12.0", "agent": "claude-code", "model": "claude-opus-5[1m]"}}
