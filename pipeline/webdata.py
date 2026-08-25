@@ -12,7 +12,13 @@ from __future__ import annotations
 from pipeline import extract, phon
 
 
-def build(axes_doc: dict, vocab: dict, examples_doc: dict) -> dict:
+def build(axes_doc: dict, vocab: dict, examples_doc: dict,
+          voiced_pairs: list | None = None) -> dict:
+    """配信データを組む。
+
+    **形態対(paradigms)と濁音対(voiced_pairs)は別物**。混ぜると、清音/濁音の主張の図に
+    形態対が描かれるという事故が起きる(2026-08-25 に実際に起きた・S1)。
+    """
     adopted_axes = [a for a in axes_doc["axes"] if a["decision"] == "adopted"]
     words: dict[str, dict] = {}
     for w in vocab["adopted"]:
@@ -39,6 +45,8 @@ def build(axes_doc: dict, vocab: dict, examples_doc: dict) -> dict:
         if stem not in ab:
             continue
         for a in adopted_axes:
+            if a["id"] != "duration":
+                continue  # 形態対は duration 軸にだけ描く(S1 の再発防止)
             p = a.get("projections", {})
             if stem in p and w in p:
                 paradigms.append({
@@ -54,8 +62,17 @@ def build(axes_doc: dict, vocab: dict, examples_doc: dict) -> dict:
     rejected = [{
         "id": a["id"], "name": a["name"], "stats": a["stats"], "decision": "rejected",
     } for a in axes_doc["axes"] if a["decision"] != "adopted"]
+    vp = []
+    rough = next((a for a in adopted_axes if a["id"] == "roughness"), None)
+    if rough and voiced_pairs:
+        p = rough.get("projections", {})
+        for plain, voiced in voiced_pairs:
+            if plain in p and voiced in p:
+                vp.append({"axis": "roughness", "plain": plain, "voiced": voiced,
+                           "plain_score": p[plain], "voiced_score": p[voiced],
+                           "delta": round(p[voiced] - p[plain], 4)})
     return {"axes": axes_meta, "rejected_axes": rejected,
-            "words": words, "paradigms": paradigms}
+            "words": words, "paradigms": paradigms, "voiced_pairs": vp}
 
 
 def main(argv=None) -> int:
@@ -66,7 +83,12 @@ def main(argv=None) -> int:
     axes_doc = json.loads((root / "data" / "axes.json").read_text(encoding="utf-8"))
     vocab = json.loads((root / "data" / "vocab_manifest.json").read_text(encoding="utf-8"))
     ex = json.loads((root / "data" / "examples.json").read_text(encoding="utf-8"))
-    doc = build(axes_doc, vocab, ex)
+    import csv as _csv
+    rows = [r for r in _csv.DictReader(
+        (l for l in (root / "data" / "curated" / "o2_pairs.tsv").read_text(
+            encoding="utf-8").splitlines() if not l.startswith("#")), delimiter="	")]
+    vp = [(r["清音"], r["濁音"]) for r in rows if r["corresponds"] == "1"]
+    doc = build(axes_doc, vocab, ex, voiced_pairs=vp)
 
     out = root / "web" / "public" / "data"
     (out / "quotes").mkdir(parents=True, exist_ok=True)
@@ -85,7 +107,7 @@ def main(argv=None) -> int:
     qtotal = sum(p.stat().st_size for p in (out / "quotes").glob("*.json"))
     print(f"index.json {size / 1024:.0f} KB / 語 {len(doc['words'])} / "
           f"軸 {len(doc['axes'])} 採用・{len(doc['rejected_axes'])} 却下")
-    print(f"パラダイム線 {len(doc['paradigms'])} 本")
+    print(f"形態対 {len(doc['paradigms'])} 本 / 濁音対 {len(doc['voiced_pairs'])} 本")
     for a in doc["axes"]:
         print(f"  {a['id']:<10} スコア {a['n_scored']:>3} 語 / 下限 {a['density_floor']} / "
               f"信頼性 {a['reliability']}")

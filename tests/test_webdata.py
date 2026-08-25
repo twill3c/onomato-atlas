@@ -77,3 +77,26 @@ def test_t236_用例は語ごとに分割して運ぶ():
     doc = webdata.build(AXES, VOCAB, ex)
     assert doc["words"]["ころころ"]["n_quotes"] == 1
     assert "quotes" not in doc["words"]["ころころ"], "用例は本体に埋めず別ファイルへ"
+
+
+@pytest.mark.unit
+def test_t237_濁音対は形態対と別に運ぶ():
+    """2 つ目の図は清音/濁音の対を描く。形態対を流用すると別の主張の図になる。"""
+    axes = {**AXES}
+    vocab = {"adopted": ["きらきら", "ぎらぎら", "ころころ", "ころり"],
+             "vocab": {w: {"freq": 100} for w in ("きらきら", "ぎらぎら", "ころころ", "ころり")}}
+    axes["axes"] = [{**AXES["axes"][0], "id": "roughness",
+                     "projections": {"きらきら": -0.2, "ぎらぎら": 0.4}},
+                    {**AXES["axes"][0]}]
+    doc = webdata.build(axes, vocab, {}, voiced_pairs=[("きらきら", "ぎらぎら")])
+    vp = doc["voiced_pairs"]
+    assert len(vp) == 1
+    assert vp[0]["plain"] == "きらきら" and vp[0]["voiced"] == "ぎらぎら"
+    assert vp[0]["delta"] > 0
+
+
+@pytest.mark.unit
+def test_t238_形態対に濁音対が混じらない():
+    doc = webdata.build(AXES, VOCAB, {})
+    for p in doc["paradigms"]:
+        assert p["variant"][:2] == p["stem"][:2], "形態対でない組が混じっている"

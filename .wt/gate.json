@@ -24,7 +24,9 @@
       "data/cooc_halves.json",
       "web/public/data/*",
       "web/public/data/quotes/*",
-      "data/examples.json"
+      "data/examples.json",
+      "web/package-lock.json",
+      "web/next-env.d.ts"
     ]
   },
   "secret_scan": true

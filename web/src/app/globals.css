@@ -1,0 +1,47 @@
+:root {
+  --paper: #f7f4ee;
+  --ink: #1c1a17;
+  --ink-soft: #57514a;
+  --rule: #ddd6ca;
+  --accent: #7a5c3e;
+  --duration: #3f6b7d;
+  --roughness: #8a5340;
+  --max: 68rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #161513;
+    --ink: #ece7de;
+    --ink-soft: #a49c90;
+    --rule: #35312b;
+    --accent: #c39a6d;
+    --duration: #7fb0c4;
+    --roughness: #cf917a;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+  line-height: 1.8;
+  font-feature-settings: "palt" 1;
+}
+main { max-width: var(--max); margin: 0 auto; padding: 3rem 1.25rem 6rem; }
+h1 { font-size: 1.9rem; letter-spacing: 0.08em; margin: 0 0 0.4rem; font-weight: 600; }
+h2 { font-size: 1.25rem; letter-spacing: 0.06em; margin: 3rem 0 0.75rem;
+     padding-bottom: 0.4rem; border-bottom: 1px solid var(--rule); font-weight: 600; }
+h3 { font-size: 1rem; margin: 2rem 0 0.5rem; font-weight: 600; }
+p { margin: 0 0 1rem; }
+a { color: var(--accent); text-underline-offset: 0.2em; }
+.lede { color: var(--ink-soft); font-size: 1.02rem; max-width: 46rem; }
+.meta { color: var(--ink-soft); font-size: 0.85rem; letter-spacing: 0.04em; }
+.note { color: var(--ink-soft); font-size: 0.85rem; border-left: 2px solid var(--rule);
+        padding: 0.1rem 0 0.1rem 0.9rem; margin: 1rem 0; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; font-size: 0.9rem; }
+th, td { padding: 0.35rem 0.8rem; border-bottom: 1px solid var(--rule); text-align: left; }
+th { font-weight: 600; color: var(--ink-soft); font-size: 0.8rem; letter-spacing: 0.06em; }
+code, .mono { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 0.88em; }
+footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding-top: 1.5rem; }
