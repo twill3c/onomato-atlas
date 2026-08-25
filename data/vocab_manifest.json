@@ -1,0 +1,7297 @@
+{
+ "vocab": {
+  "じゃり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "ぽろぽろ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 87
+  },
+  "ぶんぶん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 45
+  },
+  "じめじめ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 133
+  },
+  "かれん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 19
+  },
+  "ぎらっ": {
+   "decision": "adopted",
+   "reason": "語幹 ぎらぎら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 8,
+   "ctx_types": 36
+  },
+  "ぶらぶら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 512,
+   "ctx_types": 761
+  },
+  "ゆごー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ずるり": {
+   "decision": "adopted",
+   "reason": "語幹 ずるずる が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 16,
+   "ctx_types": 51
+  },
+  "ずばり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 68
+  },
+  "がたり": {
+   "decision": "adopted",
+   "reason": "語幹 がたがた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 18,
+   "ctx_types": 103
+  },
+  "たらり": {
+   "decision": "adopted",
+   "reason": "語幹 たらたら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 11,
+   "ctx_types": 39
+  },
+  "はろー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "おせん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 919
+  },
+  "めいめい": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 303
+  },
+  "ざかり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 50
+  },
+  "きゃん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "ぱてー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 18
+  },
+  "つかつか": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 244
+  },
+  "ゆさゆさ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 24
+  },
+  "とぼとぼ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 134
+  },
+  "しゅー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 33
+  },
+  "ぶつぶつ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 257,
+   "ctx_types": 433
+  },
+  "からり": {
+   "decision": "adopted",
+   "reason": "語幹 からから が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 63,
+   "ctx_types": 219
+  },
+  "たろー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "ぼやぼや": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 23
+  },
+  "くねくね": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 29
+  },
+  "ぼおっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "もやもや": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 94
+  },
+  "しなん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "まんまん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "もそっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 43
+  },
+  "どすん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 19
+  },
+  "ひそひそ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 213
+  },
+  "どかどか": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 48
+  },
+  "かぎり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 641
+  },
+  "めぐり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 71
+  },
+  "ぽけっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "ぎちぎち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "まごまご": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 203
+  },
+  "きりっ": {
+   "decision": "adopted",
+   "reason": "語幹 きりきり が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 45,
+   "ctx_types": 166
+  },
+  "あらあら": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 17
+  },
+  "あたり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 4945
+  },
+  "ごぼごぼ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "もめん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "いおり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "ごわごわ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "しょー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 31
+  },
+  "ぺたん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "わいわい": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 138
+  },
+  "ぐつぐつ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 20
+  },
+  "ころん": {
+   "decision": "adopted",
+   "reason": "語幹 ころころ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 21,
+   "ctx_types": 213
+  },
+  "かげり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "あいあい": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "べたり": {
+   "decision": "adopted",
+   "reason": "語幹 べたべた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 30,
+   "ctx_types": 110
+  },
+  "ようよう": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 291
+  },
+  "さくり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "きんきん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 25
+  },
+  "こうこう": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "ぼたん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 30
+  },
+  "みすみす": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 79
+  },
+  "すずり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 18
+  },
+  "ぐるぐる": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 590,
+   "ctx_types": 936
+  },
+  "ありあり": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 390
+  },
+  "ちらちら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 457,
+   "ctx_types": 809
+  },
+  "どさり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 33
+  },
+  "るぴー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "せりー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 27
+  },
+  "ぶろー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 24
+  },
+  "いじいじ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "ぷちぷち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "よちよち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 73
+  },
+  "そよそよ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 39
+  },
+  "めりー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 192
+  },
+  "しぜん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 79
+  },
+  "ねちねち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 30
+  },
+  "どろり": {
+   "decision": "adopted",
+   "reason": "語幹 どろどろ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 19,
+   "ctx_types": 68
+  },
+  "ははん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "ふうん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 181
+  },
+  "うわっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ぴたぴた": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 33
+  },
+  "ぺたっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "がさがさ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 131
+  },
+  "うどん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 225
+  },
+  "ごしごし": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 88
+  },
+  "りこん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 39
+  },
+  "そらっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "すぽり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "ほとほと": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 135
+  },
+  "ふとん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 124
+  },
+  "あかあか": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 63
+  },
+  "かあん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "ぽうっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 30
+  },
+  "とろん": {
+   "decision": "adopted",
+   "reason": "語幹 とろとろ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 35,
+   "ctx_types": 91
+  },
+  "ながなが": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 27
+  },
+  "かざり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 31
+  },
+  "くすり": {
+   "decision": "adopted",
+   "reason": "語幹 くすくす が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 41,
+   "ctx_types": 113
+  },
+  "ぬくぬく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 31
+  },
+  "ほほほほ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 65
+  },
+  "びくびく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 197
+  },
+  "きりきり": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 188,
+   "ctx_types": 393
+  },
+  "かたり": {
+   "decision": "adopted",
+   "reason": "語幹 かたかた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 16,
+   "ctx_types": 113
+  },
+  "こらっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 30
+  },
+  "そうそう": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 383
+  },
+  "すぱすぱ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 30
+  },
+  "ぼろぼろ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 231
+  },
+  "めそめそ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 44
+  },
+  "ずうん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "わなわな": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 150
+  },
+  "びたびた": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "じいじい": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "つくり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 56
+  },
+  "びゅっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "だんだん": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 2548
+  },
+  "つんつん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 18
+  },
+  "しなしな": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "さあさあ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ごろごろ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 266,
+   "ctx_types": 500
+  },
+  "いでー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ふうふう": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 50
+  },
+  "ばちばち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "さかり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 98
+  },
+  "でんでん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "ひとり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 3706
+  },
+  "ぱたぱた": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 66,
+   "ctx_types": 160
+  },
+  "ひでり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ずしり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 17
+  },
+  "ぶうん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 20
+  },
+  "ふきん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "らばー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "しゅん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 22
+  },
+  "ぎくり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 53
+  },
+  "びたり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ぐるり": {
+   "decision": "adopted",
+   "reason": "語幹 ぐるぐる が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 201,
+   "ctx_types": 625
+  },
+  "からっ": {
+   "decision": "adopted",
+   "reason": "語幹 からから が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 24,
+   "ctx_types": 107
+  },
+  "かわり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 706
+  },
+  "がぶがぶ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 50,
+   "ctx_types": 105
+  },
+  "ぱちり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "さあっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 22
+  },
+  "おとり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 36
+  },
+  "とばり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "でかでか": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 26
+  },
+  "ぐいっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ほやほや": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 18
+  },
+  "こちん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "がばがば": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "えぐり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "おどおど": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 191
+  },
+  "ろびー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 18
+  },
+  "ぽとり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "くだり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 56
+  },
+  "あのー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 19
+  },
+  "どさん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "こてこて": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 28
+  },
+  "いかり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "ぜんぜん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 38
+  },
+  "ぶすぶす": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 21
+  },
+  "もたもた": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "のこり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 21
+  },
+  "なまり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 31
+  },
+  "まだまだ": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 464
+  },
+  "あとあと": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 18
+  },
+  "ついつい": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 59
+  },
+  "りちー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "くりくり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 70
+  },
+  "めきめき": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 47
+  },
+  "ぎろり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 42
+  },
+  "ちくちく": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 46,
+   "ctx_types": 114
+  },
+  "どたり": {
+   "decision": "adopted",
+   "reason": "語幹 どたどた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 30,
+   "ctx_types": 125
+  },
+  "そおっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "くわっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 18
+  },
+  "じとじと": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 29
+  },
+  "くさくさ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 33
+  },
+  "ぐわっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "たたっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 19
+  },
+  "はあっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "かちかち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 113
+  },
+  "のうのう": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 23
+  },
+  "ばくばく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "まじまじ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 181
+  },
+  "とげとげ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 17
+  },
+  "のめのめ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 39
+  },
+  "ばらばら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 505,
+   "ctx_types": 976
+  },
+  "たらたら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 112,
+   "ctx_types": 251
+  },
+  "のそのそ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 138,
+   "ctx_types": 292
+  },
+  "ぽかり": {
+   "decision": "adopted",
+   "reason": "語幹 ぽかぽか が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 28,
+   "ctx_types": 155
+  },
+  "じろっ": {
+   "decision": "adopted",
+   "reason": "語幹 じろじろ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 34,
+   "ctx_types": 83
+  },
+  "どきり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 24
+  },
+  "はしり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "ぶよぶよ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 42
+  },
+  "ぶすっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "ぷすぷす": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "すらり": {
+   "decision": "adopted",
+   "reason": "語幹 すらすら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 166,
+   "ctx_types": 402
+  },
+  "ぶるぶる": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 378,
+   "ctx_types": 531
+  },
+  "ぎたー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "そこそこ": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 170
+  },
+  "ぴたっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "こせこせ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 19
+  },
+  "ぺてん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "ぴしり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 29
+  },
+  "かかり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 28
+  },
+  "びくり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "つるり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 30
+  },
+  "たどん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "ゆかり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 86
+  },
+  "るびー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 50
+  },
+  "むらむら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 178
+  },
+  "まがり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 23
+  },
+  "すっすっ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "えもん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "があっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ぷつり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 43
+  },
+  "くらっ": {
+   "decision": "adopted",
+   "reason": "語幹 くらくら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 7,
+   "ctx_types": 170
+  },
+  "つぎつぎ": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 173
+  },
+  "ぷすり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "いもり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 24
+  },
+  "ぴしっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "むずむず": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 53
+  },
+  "くたくた": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 40
+  },
+  "ますます": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 1039
+  },
+  "ぺこぺこ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 96
+  },
+  "ずぼん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 22
+  },
+  "かえり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 177
+  },
+  "ずどん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "まにまに": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 47
+  },
+  "はたはた": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 80,
+   "ctx_types": 184
+  },
+  "どぶん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "みみー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "まれー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "がらっ": {
+   "decision": "adopted",
+   "reason": "語幹 がらがら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 12,
+   "ctx_types": 433
+  },
+  "わあわあ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 38
+  },
+  "きげん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 157
+  },
+  "ろくろく": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 146
+  },
+  "いきいき": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 62
+  },
+  "かちり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "つくつく": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 26
+  },
+  "いろいろ": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 3801
+  },
+  "うまうま": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 52
+  },
+  "ちきり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ちりちり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 33
+  },
+  "かりかり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "じきじき": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 34
+  },
+  "さっさっ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 26
+  },
+  "どろどろ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 180,
+   "ctx_types": 379
+  },
+  "しおり": {
+   "decision": "adopted",
+   "reason": "語幹 しおしお が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 26,
+   "ctx_types": 102
+  },
+  "ほこり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 122
+  },
+  "ぱらぱら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 100
+  },
+  "へなへな": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 29
+  },
+  "ゆらゆら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 196,
+   "ctx_types": 443
+  },
+  "とたん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 590
+  },
+  "おめおめ": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 71
+  },
+  "とことこ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 28
+  },
+  "おばん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "とおっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ひゅー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 25
+  },
+  "こんこん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 89
+  },
+  "ぴたり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 210
+  },
+  "もぐもぐ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 55
+  },
+  "ばさばさ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 41
+  },
+  "わあー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "いのり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ぴくぴく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 90
+  },
+  "けんけん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "ごたごた": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 210
+  },
+  "ずるずる": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 200,
+   "ctx_types": 434
+  },
+  "まねー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ことこと": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 83,
+   "ctx_types": 189
+  },
+  "ちんちん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 43
+  },
+  "ぷりぷり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 50
+  },
+  "とろとろ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 74,
+   "ctx_types": 180
+  },
+  "つけつけ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "からー": {
+   "decision": "adopted",
+   "reason": "語幹 からから が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 36,
+   "ctx_types": 110
+  },
+  "ふりー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "うようよ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 66
+  },
+  "ぽそぽそ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "やはり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 4402
+  },
+  "けむり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 96
+  },
+  "べらべら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 91
+  },
+  "きゅっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 35
+  },
+  "ちろり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "ざあっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 19
+  },
+  "りぼん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ぐうっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 19
+  },
+  "ふうっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "するする": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 179,
+   "ctx_types": 421
+  },
+  "にゅー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 36
+  },
+  "ぐびぐび": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "にこり": {
+   "decision": "adopted",
+   "reason": "語幹 にこにこ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 84,
+   "ctx_types": 152
+  },
+  "どしどし": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 156
+  },
+  "すくすく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 51
+  },
+  "ぽりぽり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "ぞくぞく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 144
+  },
+  "うきうき": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 35
+  },
+  "ずきん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 23
+  },
+  "ぽかっ": {
+   "decision": "adopted",
+   "reason": "語幹 ぽかぽか が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 7,
+   "ctx_types": 25
+  },
+  "うわー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "てんてん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "ゆるり": {
+   "decision": "adopted",
+   "reason": "語幹 ゆるゆる が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 62,
+   "ctx_types": 113
+  },
+  "がくり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 35
+  },
+  "うねうね": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 69,
+   "ctx_types": 174
+  },
+  "ぐずぐず": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 292,
+   "ctx_types": 341
+  },
+  "かがり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "とっとっ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "ぱさぱさ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "ぱたり": {
+   "decision": "adopted",
+   "reason": "語幹 ぱたぱた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 24,
+   "ctx_types": 154
+  },
+  "ひたひた": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 90
+  },
+  "かぶり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 134
+  },
+  "ぎろっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "みりみり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ほとり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 471
+  },
+  "ぷれー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "ざあざあ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 31
+  },
+  "けちけち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 20
+  },
+  "うんうん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 31
+  },
+  "ぶうぶう": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 19
+  },
+  "ちらり": {
+   "decision": "adopted",
+   "reason": "語幹 ちらちら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 256,
+   "ctx_types": 623
+  },
+  "じりっ": {
+   "decision": "adopted",
+   "reason": "語幹 じりじり が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 16,
+   "ctx_types": 40
+  },
+  "にたり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 29
+  },
+  "かばー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 22
+  },
+  "ゆくゆく": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 37
+  },
+  "ちょん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 38
+  },
+  "くりー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "ぱきぱき": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "げじげじ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 17
+  },
+  "びしびし": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 17
+  },
+  "びんびん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "しめしめ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "じゃじゃ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "おうおう": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "れたー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 43
+  },
+  "おのおの": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 272
+  },
+  "どもり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 17
+  },
+  "ふさふさ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 44
+  },
+  "ぎゅっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 82
+  },
+  "かつかつ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 24
+  },
+  "あかり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 207
+  },
+  "つぶつぶ": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 27
+  },
+  "ゆえん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 53
+  },
+  "かなかな": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "ぴいぴい": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 19
+  },
+  "ぱくり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "りれー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "すぱり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 17
+  },
+  "わんわん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 39
+  },
+  "ぴんぴん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 68
+  },
+  "くもり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "うずうず": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 35
+  },
+  "ぼつぼつ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 123
+  },
+  "ごつごつ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 42
+  },
+  "ねだり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "がまん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 192
+  },
+  "しゃっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 20
+  },
+  "ざくざく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 53
+  },
+  "こちこち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 48
+  },
+  "へびー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "どあー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 64
+  },
+  "ごんごん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 17
+  },
+  "ずらずら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "くそっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 20
+  },
+  "じりじり": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 407,
+   "ctx_types": 788
+  },
+  "いかん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 168
+  },
+  "ぐれー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 54
+  },
+  "よしん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ちかちか": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 88
+  },
+  "ぴゅー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "ばたり": {
+   "decision": "adopted",
+   "reason": "語幹 ばたばた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 43,
+   "ctx_types": 165
+  },
+  "おこり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 17
+  },
+  "べとべと": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 52
+  },
+  "そろそろ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 938
+  },
+  "こつこつ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 216
+  },
+  "だより": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "さかん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 254
+  },
+  "くつくつ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 33
+  },
+  "うぉー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 25
+  },
+  "むくむく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 175
+  },
+  "ううっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "いぜん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 53
+  },
+  "ふくふく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "にやにや": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 565,
+   "ctx_types": 718
+  },
+  "ぱあっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "ちぇっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 29
+  },
+  "ちびり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "ちくり": {
+   "decision": "adopted",
+   "reason": "語幹 ちくちく が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 12,
+   "ctx_types": 77
+  },
+  "むざん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 38
+  },
+  "がえり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 21
+  },
+  "しおしお": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 53,
+   "ctx_types": 122
+  },
+  "ぐらっ": {
+   "decision": "adopted",
+   "reason": "語幹 ぐらぐら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 14,
+   "ctx_types": 45
+  },
+  "はきはき": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 56
+  },
+  "とみー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "まもり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "すぽん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "たより": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 337
+  },
+  "がたがた": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 297,
+   "ctx_types": 528
+  },
+  "ぐわん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "へっへっ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "ぱたん": {
+   "decision": "adopted",
+   "reason": "語幹 ぱたぱた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 13,
+   "ctx_types": 96
+  },
+  "ねとねと": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "ぞろり": {
+   "decision": "adopted",
+   "reason": "語幹 ぞろぞろ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 28,
+   "ctx_types": 97
+  },
+  "ちぎり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "はらり": {
+   "decision": "adopted",
+   "reason": "語幹 はらはら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 17,
+   "ctx_types": 65
+  },
+  "ええっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 19
+  },
+  "じろり": {
+   "decision": "adopted",
+   "reason": "語幹 じろじろ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 241,
+   "ctx_types": 536
+  },
+  "みれー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "もしもし": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 150
+  },
+  "のれん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 90
+  },
+  "おやっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 60
+  },
+  "ぞうっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ばさり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 25
+  },
+  "きびきび": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 64
+  },
+  "こそこそ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 193
+  },
+  "ぞろぞろ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 376,
+   "ctx_types": 671
+  },
+  "ぎくっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 25
+  },
+  "かおり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 60
+  },
+  "ぷうん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 20
+  },
+  "だくだく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "のそり": {
+   "decision": "adopted",
+   "reason": "語幹 のそのそ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 85,
+   "ctx_types": 144
+  },
+  "ぽつん": {
+   "decision": "adopted",
+   "reason": "語幹 ぽつぽつ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 87,
+   "ctx_types": 282
+  },
+  "なよなよ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 29
+  },
+  "ごめん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 423
+  },
+  "べたん": {
+   "decision": "adopted",
+   "reason": "語幹 べたべた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 5,
+   "ctx_types": 13
+  },
+  "どんどん": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 625,
+   "ctx_types": 1087
+  },
+  "ひりひり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 50
+  },
+  "ころり": {
+   "decision": "adopted",
+   "reason": "語幹 ころころ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 53,
+   "ctx_types": 167
+  },
+  "まざまざ": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 325
+  },
+  "ぎらり": {
+   "decision": "adopted",
+   "reason": "語幹 ぎらぎら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 26,
+   "ctx_types": 120
+  },
+  "いやっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "きらっ": {
+   "decision": "adopted",
+   "reason": "語幹 きらきら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 13,
+   "ctx_types": 141
+  },
+  "しゃり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "あせり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 24
+  },
+  "がぜん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "やかん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "ぺこん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "ねばり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "はははは": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 550
+  },
+  "かばん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "ばしり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "またまた": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 92
+  },
+  "ほろり": {
+   "decision": "adopted",
+   "reason": "語幹 ほろほろ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 51,
+   "ctx_types": 127
+  },
+  "へへん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "にたっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ばらっ": {
+   "decision": "adopted",
+   "reason": "語幹 ばらばら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 5,
+   "ctx_types": 21
+  },
+  "まあまあ": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 146
+  },
+  "ねだん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "どきん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 54
+  },
+  "ごはん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 90
+  },
+  "ぼやっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "さくさく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 29
+  },
+  "とんとん": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 227,
+   "ctx_types": 417
+  },
+  "なかなか": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 3098
+  },
+  "ぐるっ": {
+   "decision": "adopted",
+   "reason": "語幹 ぐるぐる が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 42,
+   "ctx_types": 144
+  },
+  "まるまる": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 34
+  },
+  "ぱらっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "よれよれ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 51
+  },
+  "があがあ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "おさん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 47
+  },
+  "とまり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 34
+  },
+  "すがすが": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "じんじん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 28
+  },
+  "ざわり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 26
+  },
+  "さやさや": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 32
+  },
+  "しらん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "わらわら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 22
+  },
+  "ごつん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "ぷんぷん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 109
+  },
+  "めりめり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 33
+  },
+  "しぶしぶ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 71
+  },
+  "どうり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "ざぶん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "ほどほど": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ひょっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 499
+  },
+  "へへへへ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 76
+  },
+  "やすやす": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 95
+  },
+  "すきー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 116
+  },
+  "へとへと": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 76
+  },
+  "あれっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 27
+  },
+  "ごとり": {
+   "decision": "adopted",
+   "reason": "語幹 ごとごと が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 8,
+   "ctx_types": 27
+  },
+  "いよいよ": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 3548
+  },
+  "かくかく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 25
+  },
+  "みどり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 147
+  },
+  "ごくり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 41
+  },
+  "たびたび": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 419
+  },
+  "だまり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "じゅー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ぐいぐい": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 159
+  },
+  "くるくる": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 339,
+   "ctx_types": 622
+  },
+  "わあっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 86
+  },
+  "きちきち": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 21
+  },
+  "ぼつり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "じまん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 21
+  },
+  "どどっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "ばたばた": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 420,
+   "ctx_types": 720
+  },
+  "くるっ": {
+   "decision": "adopted",
+   "reason": "語幹 くるくる が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 27,
+   "ctx_types": 164
+  },
+  "からん": {
+   "decision": "adopted",
+   "reason": "語幹 からから が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 17,
+   "ctx_types": 297
+  },
+  "るみー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 22
+  },
+  "すわり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 23
+  },
+  "つりー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "ねんねん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "うかうか": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 118
+  },
+  "ぼうぼう": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 66
+  },
+  "ぽとぽと": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 26
+  },
+  "まわり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 1135
+  },
+  "けろり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 119
+  },
+  "くしん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "へろへろ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "でれでれ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "どしん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 74
+  },
+  "ううん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 210
+  },
+  "はかり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "つるつる": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 78
+  },
+  "ぞくっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ざわざわ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 153
+  },
+  "がわり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 124
+  },
+  "かげん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 294
+  },
+  "はあー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "とびとび": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "ばたん": {
+   "decision": "adopted",
+   "reason": "語幹 ばたばた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 27,
+   "ctx_types": 146
+  },
+  "たんたん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "すべり": {
+   "decision": "adopted",
+   "reason": "語幹 すべすべ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 14,
+   "ctx_types": 125
+  },
+  "のぼり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "ざらん": {
+   "decision": "adopted",
+   "reason": "語幹 ざらざら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 39,
+   "ctx_types": 129
+  },
+  "ぴりぴり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 84
+  },
+  "ほうほう": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 34
+  },
+  "ほろほろ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 78,
+   "ctx_types": 156
+  },
+  "ゆとり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 80
+  },
+  "しとしと": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 79
+  },
+  "があん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ことり": {
+   "decision": "adopted",
+   "reason": "語幹 ことこと が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 26,
+   "ctx_types": 100
+  },
+  "きこり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "ぽちぽち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "にたにた": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 56
+  },
+  "しなり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 57
+  },
+  "かんかん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 180
+  },
+  "おどり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "みしり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "ぺろぺろ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 32
+  },
+  "かずかず": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 53
+  },
+  "ちょっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6467
+  },
+  "ごりごり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 17
+  },
+  "ぱちっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "あがり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "いろり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 29
+  },
+  "ずうずう": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "じゅじゅ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "かたかた": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 47,
+   "ctx_types": 122
+  },
+  "わたり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 39
+  },
+  "びりびり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 59
+  },
+  "とろり": {
+   "decision": "adopted",
+   "reason": "語幹 とろとろ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 28,
+   "ctx_types": 104
+  },
+  "ぽかぽか": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 86,
+   "ctx_types": 192
+  },
+  "ぎりぎり": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 147,
+   "ctx_types": 344
+  },
+  "しげり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ごほん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "てくてく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 58
+  },
+  "ずしん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 20
+  },
+  "がぶり": {
+   "decision": "adopted",
+   "reason": "語幹 がぶがぶ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 21,
+   "ctx_types": 99
+  },
+  "しかり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 22
+  },
+  "ひやり": {
+   "decision": "adopted",
+   "reason": "語幹 ひやひや が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 101,
+   "ctx_types": 236
+  },
+  "ぱちん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "ひばり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 96
+  },
+  "あれー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 23
+  },
+  "ぴくり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 23
+  },
+  "うろん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "いなり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 19
+  },
+  "ちょっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 35
+  },
+  "ぴくん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ごうっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "いじり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 49
+  },
+  "うじうじ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "やいやい": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 26
+  },
+  "ぷかぷか": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "いけん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "はやり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 26
+  },
+  "ぺろり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 21
+  },
+  "すくっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "たぷたぷ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ぜえぜえ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ぬすっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "ざくり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "ふだん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 444
+  },
+  "しゃー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "たまたま": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 291
+  },
+  "しんしん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 103
+  },
+  "さんさん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 28
+  },
+  "まりー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 97
+  },
+  "ぽきん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "じゅん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "どきっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 43
+  },
+  "がくん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 18
+  },
+  "よろよろ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 248,
+   "ctx_types": 443
+  },
+  "ひかり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 67
+  },
+  "ぷかり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "のちのち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "ひなん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "ぷうぷう": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ぷつん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "ぜいぜい": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 25
+  },
+  "ぼうっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 89
+  },
+  "となり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 161
+  },
+  "くくり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "するっ": {
+   "decision": "adopted",
+   "reason": "語幹 するする が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 7,
+   "ctx_types": 18
+  },
+  "ぶるん": {
+   "decision": "adopted",
+   "reason": "語幹 ぶるぶる が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 16,
+   "ctx_types": 81
+  },
+  "どしり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ひゃー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "もともと": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 427
+  },
+  "ずたずた": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 57
+  },
+  "のろのろ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 119
+  },
+  "すやすや": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 124
+  },
+  "めらめら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 56
+  },
+  "しぼり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "にゃー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ごとん": {
+   "decision": "adopted",
+   "reason": "語幹 ごとごと が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 17,
+   "ctx_types": 50
+  },
+  "ぬかり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 36
+  },
+  "ぐたぐた": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 32,
+   "ctx_types": 84
+  },
+  "おろおろ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 152
+  },
+  "へいへい": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 28
+  },
+  "くすっ": {
+   "decision": "adopted",
+   "reason": "語幹 くすくす が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 14,
+   "ctx_types": 51
+  },
+  "たったっ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "おりおり": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 265
+  },
+  "たまり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "もより": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "ぐじー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "かちっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "おげん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 313
+  },
+  "さいさい": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "しずしず": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 33
+  },
+  "すらすら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 181,
+   "ctx_types": 365
+  },
+  "まいり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 39
+  },
+  "ばかっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "どかん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "うぇー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "てれん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 35
+  },
+  "うおーっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "びらびら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ばりばり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 62
+  },
+  "ふっふっ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "たぶん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 527
+  },
+  "むかむか": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 84
+  },
+  "ぼこぼこ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "いんいん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "ぺっぺっ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "ぼちぼち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "だらだら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 140,
+   "ctx_types": 326
+  },
+  "ちびちび": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 44
+  },
+  "そわそわ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 200,
+   "ctx_types": 326
+  },
+  "るそー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "えへん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 68
+  },
+  "おんおん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 17
+  },
+  "しいっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "うぜん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "らくらく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "ほかほか": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "うおー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "こよこよ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "がんがん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 63
+  },
+  "さわり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 34
+  },
+  "ぺろっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "ぺたぺた": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 27
+  },
+  "ごうごう": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 77
+  },
+  "みのり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 25
+  },
+  "ぐんぐん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 255
+  },
+  "がみがみ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 68
+  },
+  "おわり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 69
+  },
+  "ぶつり": {
+   "decision": "adopted",
+   "reason": "語幹 ぶつぶつ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 13,
+   "ctx_types": 63
+  },
+  "ずらっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "かれー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 81
+  },
+  "ばたっ": {
+   "decision": "adopted",
+   "reason": "語幹 ばたばた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 6,
+   "ctx_types": 25
+  },
+  "にやっ": {
+   "decision": "adopted",
+   "reason": "語幹 にやにや が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 13,
+   "ctx_types": 57
+  },
+  "びくっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 39
+  },
+  "やあー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "よいよい": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 38
+  },
+  "ぜりー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 86
+  },
+  "もぞもぞ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 44
+  },
+  "ごおん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ふりふり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 23
+  },
+  "うなり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 77
+  },
+  "えんえん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "まざー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "みるみる": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 231
+  },
+  "そうっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 98
+  },
+  "ぼさぼさ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "うつうつ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "もちもち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "とぼん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ぎらぎら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 242,
+   "ctx_types": 462
+  },
+  "ぶらり": {
+   "decision": "adopted",
+   "reason": "語幹 ぶらぶら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 238,
+   "ctx_types": 540
+  },
+  "もうもう": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "ふらふら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 593,
+   "ctx_types": 943
+  },
+  "すごすご": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 77
+  },
+  "おでん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 115
+  },
+  "げえげえ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "はりはり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "きまり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 324
+  },
+  "づくり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 76
+  },
+  "はいはい": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 41
+  },
+  "しゃん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 32
+  },
+  "すいすい": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 48
+  },
+  "むしむし": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 17
+  },
+  "さわさわ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "しかん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "ぐもり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ふふん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 112
+  },
+  "にこにこ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 798,
+   "ctx_types": 945
+  },
+  "ばれー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "つもり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 4468
+  },
+  "どきどき": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 191
+  },
+  "ぽこぽこ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "ぞうり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 41
+  },
+  "がつがつ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 57
+  },
+  "くどくど": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 111
+  },
+  "どうっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "みなり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 23
+  },
+  "ぶとん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 68
+  },
+  "すべすべ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 42,
+   "ctx_types": 101
+  },
+  "ふかふか": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 23
+  },
+  "かすかす": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ばらり": {
+   "decision": "adopted",
+   "reason": "語幹 ばらばら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 23,
+   "ctx_types": 112
+  },
+  "ひゅっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "ぺらぺら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 56
+  },
+  "がらん": {
+   "decision": "adopted",
+   "reason": "語幹 がらがら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 118,
+   "ctx_types": 365
+  },
+  "ごてごて": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "へえっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 30
+  },
+  "もくもく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 52
+  },
+  "ちろちろ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 41
+  },
+  "ぽんぽん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 133
+  },
+  "びより": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ずきずき": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 45
+  },
+  "つむり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "むくり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 25
+  },
+  "しがー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "ぽたり": {
+   "decision": "adopted",
+   "reason": "語幹 ぽたぽた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 32,
+   "ctx_types": 120
+  },
+  "うつり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 23
+  },
+  "ぐらり": {
+   "decision": "adopted",
+   "reason": "語幹 ぐらぐら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 14,
+   "ctx_types": 52
+  },
+  "ぐらぐら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 168,
+   "ctx_types": 332
+  },
+  "こつり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "とおり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 1978
+  },
+  "くらくら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 105,
+   "ctx_types": 168
+  },
+  "のこのこ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 138
+  },
+  "ああん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "べろり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ずらり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 184
+  },
+  "ぶらっ": {
+   "decision": "adopted",
+   "reason": "語幹 ぶらぶら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 6,
+   "ctx_types": 39
+  },
+  "どどん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "うらうら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 32
+  },
+  "すとん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "もりもり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "かっかっ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "うさん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 66
+  },
+  "きゃー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "どおん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "やあやあ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "すたすた": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 176,
+   "ctx_types": 344
+  },
+  "べろべろ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 20
+  },
+  "たたり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 35
+  },
+  "どげん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "げたげた": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "がたっ": {
+   "decision": "adopted",
+   "reason": "語幹 がたがた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 9,
+   "ctx_types": 50
+  },
+  "かあっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 23
+  },
+  "へたへた": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 21
+  },
+  "ぬめぬめ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "ぷうっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "たじたじ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 61
+  },
+  "くんくん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 45
+  },
+  "くすくす": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 140,
+   "ctx_types": 195
+  },
+  "さらさら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 250,
+   "ctx_types": 536
+  },
+  "あみー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "やぶり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ればー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ふいっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "こくり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 43
+  },
+  "ねばねば": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 23
+  },
+  "ぴいん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "ごそごそ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 115
+  },
+  "じわじわ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 30
+  },
+  "のしのし": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "さらり": {
+   "decision": "adopted",
+   "reason": "語幹 さらさら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 57,
+   "ctx_types": 222
+  },
+  "それっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 45
+  },
+  "きしきし": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "ちゃり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "いやー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "ざらざら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 103,
+   "ctx_types": 265
+  },
+  "よくよく": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 327
+  },
+  "くっくっ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 37
+  },
+  "ぎいぎい": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 20
+  },
+  "だぶだぶ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 55
+  },
+  "ごくん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "ぎょっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 253
+  },
+  "ふんふん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "ぬらぬら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 32
+  },
+  "わあん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ゆずり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ぱりー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 58
+  },
+  "もごもご": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "ぐたり": {
+   "decision": "adopted",
+   "reason": "語幹 ぐたぐた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 42,
+   "ctx_types": 113
+  },
+  "ふきふき": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 22
+  },
+  "おこん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "どろー": {
+   "decision": "adopted",
+   "reason": "語幹 どろどろ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 42,
+   "ctx_types": 95
+  },
+  "しばしば": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 749
+  },
+  "ただただ": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 140
+  },
+  "だらり": {
+   "decision": "adopted",
+   "reason": "語幹 だらだら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 101,
+   "ctx_types": 347
+  },
+  "ゆさり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "ぎゃっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "けらけら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 25
+  },
+  "せかせか": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 99
+  },
+  "じろじろ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 342,
+   "ctx_types": 450
+  },
+  "ぴりっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "ぴゅん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "まはり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ずばずば": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 26
+  },
+  "ごろっ": {
+   "decision": "adopted",
+   "reason": "語幹 ごろごろ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 14,
+   "ctx_types": 44
+  },
+  "ずぶり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 21
+  },
+  "もそもそ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 18
+  },
+  "ふらっ": {
+   "decision": "adopted",
+   "reason": "語幹 ふらふら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 9,
+   "ctx_types": 33
+  },
+  "おちおち": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 43
+  },
+  "はらはら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 329,
+   "ctx_types": 502
+  },
+  "ぱんぱん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 71
+  },
+  "じしん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 31
+  },
+  "ぱちぱち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 226
+  },
+  "いやん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 21
+  },
+  "しこり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "でゅー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "どまり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "ぽくぽく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 25
+  },
+  "なでなで": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 19
+  },
+  "ちっちっ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "ぐうぐう": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 61
+  },
+  "ぎろぎろ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 14
+  },
+  "きゃっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 30
+  },
+  "くぎり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "きらきら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 413,
+   "ctx_types": 687
+  },
+  "てかてか": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 31
+  },
+  "おおっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 23
+  },
+  "ぱりぱり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 28
+  },
+  "くよくよ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 80
+  },
+  "あらっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 35
+  },
+  "ごらん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 1353
+  },
+  "ずかずか": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 119
+  },
+  "みちみち": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 29
+  },
+  "おずおず": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 148
+  },
+  "わくわく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 141
+  },
+  "ひくひく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 69
+  },
+  "ふろー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 44
+  },
+  "あきあき": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 22
+  },
+  "かさかさ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 91
+  },
+  "つらつら": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 25
+  },
+  "おもり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ふらり": {
+   "decision": "adopted",
+   "reason": "語幹 ふらふら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 98,
+   "ctx_types": 253
+  },
+  "ぷっぷっ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "ほくほく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 53
+  },
+  "しげしげ": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 159
+  },
+  "もさもさ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "しゅっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "じゃー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "うとうと": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 281,
+   "ctx_types": 338
+  },
+  "いやいや": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 414
+  },
+  "まつり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 31
+  },
+  "うねり": {
+   "decision": "adopted",
+   "reason": "語幹 うねうね が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 105,
+   "ctx_types": 308
+  },
+  "いらいら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 295
+  },
+  "ゆうゆう": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 38
+  },
+  "どどどど": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "つやつや": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 53
+  },
+  "もじもじ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 174,
+   "ctx_types": 261
+  },
+  "よぼよぼ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 52
+  },
+  "うわーっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ゆるゆる": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 128,
+   "ctx_types": 346
+  },
+  "だらん": {
+   "decision": "adopted",
+   "reason": "語幹 だらだら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 17,
+   "ctx_types": 44
+  },
+  "なごり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 46
+  },
+  "くだん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 22
+  },
+  "そろり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "もろもろ": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 46
+  },
+  "おごり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ありー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 28
+  },
+  "ぽろっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "むうっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "えいえい": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "やもり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "はあはあ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 56
+  },
+  "ずぶずぶ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 18
+  },
+  "するり": {
+   "decision": "adopted",
+   "reason": "語幹 するする が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 32,
+   "ctx_types": 157
+  },
+  "めくり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ふれー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 19
+  },
+  "すうすう": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ばさっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "すたー": {
+   "decision": "adopted",
+   "reason": "語幹 すたすた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 32,
+   "ctx_types": 117
+  },
+  "べびー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ぐさり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 20
+  },
+  "みだり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 59
+  },
+  "もぐり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "みじん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 63
+  },
+  "じくじく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 29
+  },
+  "すりー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "ひしひし": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 113
+  },
+  "じいっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 150
+  },
+  "ずけずけ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 51
+  },
+  "みんみん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "あさり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 23
+  },
+  "むんむん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 33
+  },
+  "なみなみ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 77
+  },
+  "さがり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 37
+  },
+  "がらり": {
+   "decision": "adopted",
+   "reason": "語幹 がらがら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 132,
+   "ctx_types": 386
+  },
+  "ごろん": {
+   "decision": "adopted",
+   "reason": "語幹 ごろごろ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 34,
+   "ctx_types": 96
+  },
+  "むざむざ": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 71
+  },
+  "ぱっぱっ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 39
+  },
+  "ぶざー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "ぬけぬけ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 37
+  },
+  "ああっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 26
+  },
+  "おさおさ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "つわり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ぱかぱか": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "げらげら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 150
+  },
+  "ぎしぎし": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 41
+  },
+  "きゅきゅ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ふぉー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "ぺたり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 20
+  },
+  "ゆすり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 34
+  },
+  "りんりん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 21
+  },
+  "ぷつぷつ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "けげん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 94
+  },
+  "まちまち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 48
+  },
+  "ぴらぴら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "けぶり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 25
+  },
+  "らんらん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 37
+  },
+  "ちらっ": {
+   "decision": "adopted",
+   "reason": "語幹 ちらちら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 183,
+   "ctx_types": 410
+  },
+  "じぶん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 595
+  },
+  "ぱらり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 22
+  },
+  "ぴしぴし": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 28
+  },
+  "ぼりぼり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 26
+  },
+  "ぎすぎす": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ごろり": {
+   "decision": "adopted",
+   "reason": "語幹 ごろごろ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 110,
+   "ctx_types": 255
+  },
+  "ぺこり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "がしん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "てらてら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 65
+  },
+  "くめん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "すれすれ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 128
+  },
+  "くなくな": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "ぴくっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "しくしく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 134
+  },
+  "ちえっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 21
+  },
+  "ずうっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 109
+  },
+  "くわん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "わざわざ": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 1253
+  },
+  "じょじょ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "こいこい": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ぽろり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 32
+  },
+  "ぱくぱく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 31
+  },
+  "たたん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "みしみし": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 30
+  },
+  "あおり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 27
+  },
+  "かなり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 2186
+  },
+  "ざぶり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 25
+  },
+  "ぽきぽき": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "とうとう": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 2729
+  },
+  "ぼそぼそ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 99
+  },
+  "ぴゅっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "ねむり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 27
+  },
+  "かあかあ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ゆだん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 78
+  },
+  "ふつふつ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 24
+  },
+  "にやり": {
+   "decision": "adopted",
+   "reason": "語幹 にやにや が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 238,
+   "ctx_types": 553
+  },
+  "おいっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 48
+  },
+  "こつん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 27
+  },
+  "しらしら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 17
+  },
+  "ぽっぽっ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "ころころ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 144,
+   "ctx_types": 270
+  },
+  "ふしん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "きゅー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "がりがり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 64
+  },
+  "かさん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 27
+  },
+  "ひいひい": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 34
+  },
+  "ぬるぬる": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 38
+  },
+  "どおり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 644
+  },
+  "ぴかぴか": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 161,
+   "ctx_types": 380
+  },
+  "しきり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 1952
+  },
+  "がちがち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 28
+  },
+  "へらへら": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 74
+  },
+  "がやがや": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 198
+  },
+  "ぷるぷる": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ぴょん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "にしん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "きいきい": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 34
+  },
+  "がくがく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 69
+  },
+  "にぎり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "もちっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 31
+  },
+  "ふわふわ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 128,
+   "ctx_types": 267
+  },
+  "さばさば": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 47
+  },
+  "ぷくぷく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "おりん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 34
+  },
+  "へえー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 119
+  },
+  "どさっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "ぼたぼた": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 9
+  },
+  "ぶらん": {
+   "decision": "adopted",
+   "reason": "語幹 ぶらぶら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 15,
+   "ctx_types": 168
+  },
+  "つまり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 3401
+  },
+  "どてっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "しいん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "ごとごと": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 55,
+   "ctx_types": 131
+  },
+  "からから": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 225,
+   "ctx_types": 397
+  },
+  "かりん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ぶるっ": {
+   "decision": "adopted",
+   "reason": "語幹 ぶるぶる が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 17,
+   "ctx_types": 104
+  },
+  "きりり": {
+   "decision": "adopted",
+   "reason": "語幹 きりきり が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 43,
+   "ctx_types": 202
+  },
+  "ちいっと": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "どかっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "りりー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "どくどく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 34
+  },
+  "ぶくぶく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 84
+  },
+  "ぴりり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "ひらり": {
+   "decision": "adopted",
+   "reason": "語幹 ひらひら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 147,
+   "ctx_types": 453
+  },
+  "おいおい": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 149
+  },
+  "ざぶざぶ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 43
+  },
+  "ぐりぐり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 37
+  },
+  "むかっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "すらっ": {
+   "decision": "adopted",
+   "reason": "語幹 すらすら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 9,
+   "ctx_types": 29
+  },
+  "がたん": {
+   "decision": "adopted",
+   "reason": "語幹 がたがた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 40,
+   "ctx_types": 155
+  },
+  "ぺんぺん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 12
+  },
+  "ぼんぼん": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 36
+  },
+  "ぶなん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "ふたり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 1191
+  },
+  "よりより": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "ぶわぶわ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "なぞなぞ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "どぼん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "みれん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 19
+  },
+  "づまり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "つぁー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 18
+  },
+  "いちいち": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 390
+  },
+  "えいっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 21
+  },
+  "ずんずん": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 327,
+   "ctx_types": 555
+  },
+  "ぬうっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "すうっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 155
+  },
+  "ばたー": {
+   "decision": "adopted",
+   "reason": "語幹 ばたばた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 389,
+   "ctx_types": 417
+  },
+  "ぽつり": {
+   "decision": "adopted",
+   "reason": "語幹 ぽつぽつ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 85,
+   "ctx_types": 223
+  },
+  "ぽつぽつ": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 160,
+   "ctx_types": 388
+  },
+  "ひやっ": {
+   "decision": "adopted",
+   "reason": "語幹 ひやひや が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 11,
+   "ctx_types": 32
+  },
+  "ひらひら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 244,
+   "ctx_types": 505
+  },
+  "ふがふが": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 13
+  },
+  "ごぜん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "うすうす": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 67
+  },
+  "ぼこり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "ひいっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "どやどや": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 157
+  },
+  "ぶるー": {
+   "decision": "adopted",
+   "reason": "語幹 ぶるぶる が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 13,
+   "ctx_types": 40
+  },
+  "のびのび": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 105
+  },
+  "よたよた": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 43
+  },
+  "しまり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 44
+  },
+  "ぎざぎざ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 20
+  },
+  "いたり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 10
+  },
+  "ぴかり": {
+   "decision": "adopted",
+   "reason": "語幹 ぴかぴか が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 22,
+   "ctx_types": 123
+  },
+  "ひやひや": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 72,
+   "ctx_types": 135
+  },
+  "くぐり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 39
+  },
+  "ごそり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "こりこり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 17
+  },
+  "にこっ": {
+   "decision": "adopted",
+   "reason": "語幹 にこにこ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 11,
+   "ctx_types": 42
+  },
+  "むろん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 1125
+  },
+  "にゅっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 20
+  },
+  "だだだだ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ごみごみ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 51
+  },
+  "ひだり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "ごくごく": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 46
+  },
+  "ざぜん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "うろうろ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 384
+  },
+  "むちむち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "ぽかん": {
+   "decision": "adopted",
+   "reason": "語幹 ぽかぽか が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 170,
+   "ctx_types": 402
+  },
+  "いらっ": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 127
+  },
+  "みかん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 52
+  },
+  "そぶり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 61
+  },
+  "ぼとぼと": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "せせり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "ぐすり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 8
+  },
+  "あまり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5684
+  },
+  "どうん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "どたどた": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 27,
+   "ctx_types": 78
+  },
+  "ぽたぽた": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 68,
+   "ctx_types": 144
+  },
+  "くるり": {
+   "decision": "adopted",
+   "reason": "語幹 くるくる が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 239,
+   "ctx_types": 546
+  },
+  "すろー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 11
+  },
+  "ぴちぴち": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 53
+  },
+  "がらがら": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 235,
+   "ctx_types": 470
+  },
+  "うそうそ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 15
+  },
+  "ぶりぶり": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 16
+  },
+  "きらり": {
+   "decision": "adopted",
+   "reason": "語幹 きらきら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 71,
+   "ctx_types": 283
+  },
+  "べたっ": {
+   "decision": "adopted",
+   "reason": "語幹 べたべた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 5,
+   "ctx_types": 17
+  },
+  "べつべつ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 26
+  },
+  "ほいほい": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ちまちま": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ごほごほ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "いそいそ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 225
+  },
+  "はたり": {
+   "decision": "adopted",
+   "reason": "語幹 はたはた が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 5,
+   "ctx_types": 15
+  },
+  "じめん": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ひねり": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 18
+  },
+  "ふわり": {
+   "decision": "adopted",
+   "reason": "語幹 ふわふわ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 75,
+   "ctx_types": 244
+  },
+  "ゆらり": {
+   "decision": "adopted",
+   "reason": "語幹 ゆらゆら が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 21,
+   "ctx_types": 101
+  },
+  "どろん": {
+   "decision": "adopted",
+   "reason": "語幹 どろどろ が採用済み(F-06 自動規則)",
+   "table_version": "1.0.0",
+   "freq": 26,
+   "ctx_types": 106
+  },
+  "みずみず": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 7
+  },
+  "まずまず": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 56
+  },
+  "そもそも": {
+   "decision": "rejected",
+   "reason": "反復強調・程度の副詞で模写性がない(SPEC §4.2 除外)",
+   "table_version": "1.0.0",
+   "freq": 384
+  },
+  "まえまえ": {
+   "decision": "needs_review",
+   "reason": "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)",
+   "table_version": "1.0.0",
+   "freq": 5
+  },
+  "ちゃー": {
+   "decision": "rejected",
+   "reason": "語幹が ABAB 型として語彙に存在しない(F-06)",
+   "table_version": "1.0.0",
+   "freq": 6
+  },
+  "べたべた": {
+   "decision": "adopted",
+   "reason": "先行検証で用例・分布近傍を実見した擬態語(SPEC §4.2 採用)",
+   "table_version": "1.0.0",
+   "freq": 88,
+   "ctx_types": 236
+  }
+ },
+ "adopted": [
+  "うとうと",
+  "うねうね",
+  "うねり",
+  "かたかた",
+  "かたり",
+  "からから",
+  "からっ",
+  "からり",
+  "からん",
+  "からー",
+  "がたがた",
+  "がたっ",
+  "がたり",
+  "がたん",
+  "がぶがぶ",
+  "がぶり",
+  "がらがら",
+  "がらっ",
+  "がらり",
+  "がらん",
+  "きらきら",
+  "きらっ",
+  "きらり",
+  "きりきり",
+  "きりっ",
+  "きりり",
+  "ぎらぎら",
+  "ぎらっ",
+  "ぎらり",
+  "ぎりぎり",
+  "くすくす",
+  "くすっ",
+  "くすり",
+  "くらくら",
+  "くらっ",
+  "くるくる",
+  "くるっ",
+  "くるり",
+  "ぐずぐず",
+  "ぐたぐた",
+  "ぐたり",
+  "ぐらぐら",
+  "ぐらっ",
+  "ぐらり",
+  "ぐるぐる",
+  "ぐるっ",
+  "ぐるり",
+  "ことこと",
+  "ことり",
+  "ころころ",
+  "ころり",
+  "ころん",
+  "ごとごと",
+  "ごとり",
+  "ごとん",
+  "ごろごろ",
+  "ごろっ",
+  "ごろり",
+  "ごろん",
+  "さらさら",
+  "さらり",
+  "ざらざら",
+  "ざらん",
+  "しおしお",
+  "しおり",
+  "じりじり",
+  "じりっ",
+  "じろじろ",
+  "じろっ",
+  "じろり",
+  "すたすた",
+  "すたー",
+  "すべすべ",
+  "すべり",
+  "すらすら",
+  "すらっ",
+  "すらり",
+  "するする",
+  "するっ",
+  "するり",
+  "ずるずる",
+  "ずるり",
+  "ずんずん",
+  "そわそわ",
+  "ぞろぞろ",
+  "ぞろり",
+  "たらたら",
+  "たらり",
+  "だらだら",
+  "だらり",
+  "だらん",
+  "ちくちく",
+  "ちくり",
+  "ちらちら",
+  "ちらっ",
+  "ちらり",
+  "とろとろ",
+  "とろり",
+  "とろん",
+  "とんとん",
+  "どたどた",
+  "どたり",
+  "どろどろ",
+  "どろり",
+  "どろん",
+  "どろー",
+  "どんどん",
+  "にこっ",
+  "にこにこ",
+  "にこり",
+  "にやっ",
+  "にやにや",
+  "にやり",
+  "のそのそ",
+  "のそり",
+  "はたはた",
+  "はたり",
+  "はらはら",
+  "はらり",
+  "ばたっ",
+  "ばたばた",
+  "ばたり",
+  "ばたん",
+  "ばたー",
+  "ばらっ",
+  "ばらばら",
+  "ばらり",
+  "ぱたぱた",
+  "ぱたり",
+  "ぱたん",
+  "ひやっ",
+  "ひやひや",
+  "ひやり",
+  "ひらひら",
+  "ひらり",
+  "ぴかぴか",
+  "ぴかり",
+  "ふらっ",
+  "ふらふら",
+  "ふらり",
+  "ふわふわ",
+  "ふわり",
+  "ぶつぶつ",
+  "ぶつり",
+  "ぶらっ",
+  "ぶらぶら",
+  "ぶらり",
+  "ぶらん",
+  "ぶるっ",
+  "ぶるぶる",
+  "ぶるん",
+  "ぶるー",
+  "べたっ",
+  "べたべた",
+  "べたり",
+  "べたん",
+  "ほろほろ",
+  "ほろり",
+  "ぽかっ",
+  "ぽかぽか",
+  "ぽかり",
+  "ぽかん",
+  "ぽたぽた",
+  "ぽたり",
+  "ぽつぽつ",
+  "ぽつり",
+  "ぽつん",
+  "もじもじ",
+  "ゆらゆら",
+  "ゆらり",
+  "ゆるゆる",
+  "ゆるり",
+  "よろよろ"
+ ],
+ "needs_review": [
+  "そろそろ",
+  "はははは",
+  "うろうろ",
+  "いらいら",
+  "ぐんぐん",
+  "つかつか",
+  "ぼろぼろ",
+  "ぱちぱち",
+  "いそいそ",
+  "こつこつ",
+  "ひそひそ",
+  "ごたごた",
+  "まごまご",
+  "がやがや",
+  "びくびく",
+  "こそこそ",
+  "おどおど",
+  "どきどき",
+  "まじまじ",
+  "かんかん",
+  "むらむら",
+  "むくむく",
+  "ぐいぐい",
+  "どやどや",
+  "どしどし",
+  "ざわざわ",
+  "おろおろ",
+  "わなわな",
+  "げらげら",
+  "おずおず",
+  "ぞくぞく",
+  "わくわく",
+  "わいわい",
+  "のこのこ",
+  "とぼとぼ",
+  "しくしく",
+  "じめじめ",
+  "ぽんぽん",
+  "がさがさ",
+  "すれすれ",
+  "すやすや",
+  "ぼつぼつ",
+  "のろのろ",
+  "ずかずか",
+  "うかうか",
+  "ごそごそ",
+  "かちかち",
+  "ひしひし",
+  "くどくど",
+  "ぷんぷん",
+  "しんしん",
+  "ぱらぱら",
+  "せかせか",
+  "ぼそぼそ",
+  "ぺこぺこ",
+  "もやもや",
+  "べらべら",
+  "かさかさ",
+  "ぴくぴく",
+  "ひたひた",
+  "こんこん",
+  "ごしごし",
+  "ちかちか",
+  "ぽろぽろ",
+  "ぴりぴり",
+  "むかむか",
+  "ぶくぶく",
+  "くよくよ",
+  "しとしと",
+  "つるつる",
+  "ごうごう",
+  "すごすご",
+  "なみなみ",
+  "へへへへ",
+  "へとへと",
+  "へらへら",
+  "よちよち",
+  "しぶしぶ",
+  "ぱんぱん",
+  "くりくり",
+  "ひくひく",
+  "がくがく",
+  "ぴんぴん",
+  "がみがみ",
+  "うようよ",
+  "ぼうぼう",
+  "ほほほほ",
+  "てらてら",
+  "きびきび",
+  "がりがり",
+  "がんがん",
+  "ばりばり",
+  "たじたじ",
+  "ぐうぐう",
+  "びりびり",
+  "てくてく",
+  "ずたずた",
+  "がつがつ",
+  "はきはき",
+  "にたにた",
+  "めらめら",
+  "ぺらぺら",
+  "はあはあ",
+  "まずまず",
+  "もぐもぐ",
+  "だぶだぶ",
+  "むずむず",
+  "ざくざく",
+  "ほくほく",
+  "つやつや",
+  "ぴちぴち",
+  "べとべと",
+  "もくもく",
+  "よぼよぼ",
+  "ずけずけ",
+  "すくすく",
+  "よれよれ",
+  "ごみごみ",
+  "ふうふう",
+  "ぷりぷり",
+  "ひりひり",
+  "どかどか",
+  "こちこち",
+  "すいすい",
+  "まちまち",
+  "めきめき",
+  "まにまに",
+  "さばさば",
+  "ごくごく",
+  "ぶんぶん",
+  "ずきずき",
+  "くんくん",
+  "めそめそ",
+  "ふさふさ",
+  "ちびちび",
+  "もぞもぞ",
+  "ちんちん",
+  "ざぶざぶ",
+  "よたよた",
+  "ぶよぶよ",
+  "ごつごつ",
+  "ばさばさ",
+  "ちろちろ",
+  "ぎしぎし",
+  "くたくた",
+  "そよそよ",
+  "わんわん",
+  "のめのめ",
+  "ぱっぱっ",
+  "ぜんぜん",
+  "わあわあ",
+  "ゆうゆう",
+  "ぬるぬる",
+  "くっくっ",
+  "ぬけぬけ",
+  "らんらん",
+  "ぐりぐり",
+  "ぼんぼん",
+  "うきうき",
+  "うずうず",
+  "じきじき",
+  "ほうほう",
+  "ひいひい",
+  "きいきい",
+  "どくどく",
+  "ぴたぴた",
+  "くさくさ",
+  "ちりちり",
+  "くつくつ",
+  "めりめり",
+  "むんむん",
+  "さやさや",
+  "ぺろぺろ",
+  "うらうら",
+  "ぬらぬら",
+  "ぬくぬく",
+  "ざあざあ",
+  "うんうん",
+  "てかてか",
+  "ぱくぱく",
+  "ねちねち",
+  "すぱすぱ",
+  "じわじわ",
+  "みしみし",
+  "くねくね",
+  "じとじと",
+  "へなへな",
+  "なよなよ",
+  "さくさく",
+  "じくじく",
+  "こてこて",
+  "とことこ",
+  "じんじん",
+  "さんさん",
+  "ぱりぱり",
+  "ぴしぴし",
+  "がちがち",
+  "ぺたぺた",
+  "でかでか",
+  "さっさっ",
+  "ぽとぽと",
+  "やいやい",
+  "ずばずば",
+  "ぼりぼり",
+  "べつべつ",
+  "きんきん",
+  "かくかく",
+  "ぜいぜい",
+  "けらけら",
+  "ぽくぽく",
+  "ゆさゆさ",
+  "かつかつ",
+  "ふつふつ",
+  "ぼやぼや",
+  "のうのう",
+  "ふりふり",
+  "ふかふか",
+  "ねばねば",
+  "わらわら",
+  "あきあき",
+  "ぶすぶす",
+  "へたへた",
+  "りんりん",
+  "ぐつぐつ",
+  "けちけち",
+  "べろべろ",
+  "ぎいぎい",
+  "ぎざぎざ",
+  "ぶうぶう",
+  "こせこせ",
+  "ぴいぴい",
+  "なでなで",
+  "つんつん",
+  "ほやほや",
+  "もそもそ",
+  "ずぶずぶ",
+  "とげとげ",
+  "げじげじ",
+  "びしびし",
+  "ごんごん",
+  "ごりごり",
+  "おんおん",
+  "むしむし",
+  "しらしら",
+  "こりこり",
+  "ごぼごぼ",
+  "じいじい",
+  "つけつけ",
+  "ふくふく",
+  "ぺっぺっ",
+  "ごてごて",
+  "かっかっ",
+  "よりより",
+  "ぼとぼと",
+  "ぶりぶり",
+  "だくだく",
+  "があがあ",
+  "ぽちぽち",
+  "さわさわ",
+  "もごもご",
+  "ぽきぽき",
+  "うそうそ",
+  "しなしな",
+  "けんけん",
+  "ぽりぽり",
+  "うじうじ",
+  "ぷかぷか",
+  "もりもり",
+  "やあやあ",
+  "ぎろぎろ",
+  "ごわごわ",
+  "でんでん",
+  "ぱさぱさ",
+  "ねんねん",
+  "えんえん",
+  "ふがふが",
+  "あいあい",
+  "しめしめ",
+  "ずらずら",
+  "たったっ",
+  "らくらく",
+  "うつうつ",
+  "ぺんぺん",
+  "ぽそぽそ",
+  "てんてん",
+  "びんびん",
+  "ぽこぽこ",
+  "きしきし",
+  "みんみん",
+  "ぷつぷつ",
+  "ぴらぴら",
+  "のちのち",
+  "いんいん",
+  "ぬめぬめ",
+  "ふんふん",
+  "どどどど",
+  "おさおさ",
+  "ばちばち",
+  "がばがば",
+  "かりかり",
+  "とっとっ",
+  "へっへっ",
+  "ねとねと",
+  "ふっふっ",
+  "ぼこぼこ",
+  "ほかほか",
+  "ぽっぽっ",
+  "ぼたぼた",
+  "ぎちぎち",
+  "びたびた",
+  "さあさあ",
+  "ほどほど",
+  "でれでれ",
+  "ずうずう",
+  "ぼさぼさ",
+  "げたげた",
+  "えいえい",
+  "すうすう",
+  "ぎすぎす",
+  "かあかあ",
+  "むちむち",
+  "まんまん",
+  "ぷちぷち",
+  "ぷすぷす",
+  "ぐびぐび",
+  "へろへろ",
+  "じゅじゅ",
+  "ぷうぷう",
+  "ぼちぼち",
+  "げえげえ",
+  "こいこい",
+  "ぶわぶわ",
+  "だだだだ",
+  "いじいじ",
+  "もたもた",
+  "ばくばく",
+  "すっすっ",
+  "かなかな",
+  "すがすが",
+  "もちもち",
+  "もうもう",
+  "ちっちっ",
+  "ぷっぷっ",
+  "ぱかぱか",
+  "くなくな",
+  "じょじょ",
+  "みりみり",
+  "ぱきぱき",
+  "じゃじゃ",
+  "たんたん",
+  "たぷたぷ",
+  "ぜえぜえ",
+  "さいさい",
+  "びらびら",
+  "こよこよ",
+  "はりはり",
+  "かすかす",
+  "のしのし",
+  "もさもさ",
+  "きゅきゅ",
+  "ぷるぷる",
+  "ぷくぷく",
+  "なぞなぞ",
+  "ほいほい",
+  "ちまちま",
+  "ごほごほ",
+  "まえまえ"
+ ],
+ "table_version": "1.0.0",
+ "light_verbs_version": "1.0.0",
+ "min_freq": 5,
+ "types_all": 1751,
+ "types_kept": 1094,
+ "tokens_all": 134681,
+ "density": {
+  "min": 13,
+  "median": 168,
+  "max": 1087,
+  "n": 173
+ }
+}
