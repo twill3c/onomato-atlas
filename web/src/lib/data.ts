@@ -48,6 +48,19 @@ export function loadIndex(): Index {
   return JSON.parse(fs.readFileSync(path.join(DATA, "index.json"), "utf-8"));
 }
 
+export type AuthorTop = { word: string; z: number; delta: number;
+                          count: number; author_total: number };
+export type Author = { author: string; works: number; tokens: number; types: number;
+                       top: AuthorTop[]; n_significant: number };
+export type Authors = {
+  generated_on: string; min_tokens: number; prior_strength: number;
+  bonferroni_z: number; n_authors: number; authors: Record<string, Author>;
+};
+
+export function loadAuthors(): Authors {
+  return JSON.parse(fs.readFileSync(path.join(DATA, "authors.json"), "utf-8"));
+}
+
 export type Quote = {
   quote: string; surface: string;
   source: { work_id: string; title: string; author: string;
