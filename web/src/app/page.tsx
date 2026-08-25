@@ -89,7 +89,8 @@ export default function Home() {
         —— それが載せるものと載せないものの境目です。
       </p>
       <p className="meta">
-        <a href="/method/">方法と限界をくわしく</a>
+        <a href="/method/">方法と限界をくわしく</a> ・{" "}
+        <a href="/words/">語を見る({Object.keys(ix.words).length} 語)</a>
       </p>
     </main>
   );

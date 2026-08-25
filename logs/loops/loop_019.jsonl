@@ -1,0 +1,1 @@
+{"v": "1.2", "ts": "2026-08-25T21:31:09+09:00", "project": "onomato-atlas", "loop_id": "loop_019", "event": "loop_start", "data": {"goal": "音の近傍(C)を二重実装で出して O-4 を成立させ、方法ページ(D)を書いて Vercel に公開する", "spec_refs": ["N-04", "O-4", "F-33", "F-34"], "scaffold_version": "1.12.0", "agent": "claude-code", "model": "claude-opus-5[1m]"}}

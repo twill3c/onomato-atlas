@@ -1,0 +1,1074 @@
+{
+ "note": "O-4 二重実装照合用。Python と TypeScript が同じ値を返すこと(N-04)",
+ "generated_on": "2026-08-25",
+ "features": {
+  "きらきら": {
+   "word": "きらきら",
+   "stem": "きら",
+   "form": "ABAB",
+   "onset1": "k",
+   "onset2": "r",
+   "vowels": "ia",
+   "voiced": false,
+   "semivoiced": false,
+   "geminate": false,
+   "moraic_n": false,
+   "long": false
+  },
+  "ぎらぎら": {
+   "word": "ぎらぎら",
+   "stem": "ぎら",
+   "form": "ABAB",
+   "onset1": "g",
+   "onset2": "r",
+   "vowels": "ia",
+   "voiced": true,
+   "semivoiced": false,
+   "geminate": false,
+   "moraic_n": false,
+   "long": false
+  },
+  "ころころ": {
+   "word": "ころころ",
+   "stem": "ころ",
+   "form": "ABAB",
+   "onset1": "k",
+   "onset2": "r",
+   "vowels": "oo",
+   "voiced": false,
+   "semivoiced": false,
+   "geminate": false,
+   "moraic_n": false,
+   "long": false
+  },
+  "ころり": {
+   "word": "ころり",
+   "stem": "ころ",
+   "form": "ABり",
+   "onset1": "k",
+   "onset2": "r",
+   "vowels": "oo",
+   "voiced": false,
+   "semivoiced": false,
+   "geminate": false,
+   "moraic_n": false,
+   "long": false
+  },
+  "ころん": {
+   "word": "ころん",
+   "stem": "ころ",
+   "form": "ABん",
+   "onset1": "k",
+   "onset2": "r",
+   "vowels": "oo",
+   "voiced": false,
+   "semivoiced": false,
+   "geminate": false,
+   "moraic_n": true,
+   "long": false
+  },
+  "ばたばた": {
+   "word": "ばたばた",
+   "stem": "ばた",
+   "form": "ABAB",
+   "onset1": "b",
+   "onset2": "t",
+   "vowels": "aa",
+   "voiced": true,
+   "semivoiced": false,
+   "geminate": false,
+   "moraic_n": false,
+   "long": false
+  },
+  "ふわふわ": {
+   "word": "ふわふわ",
+   "stem": "ふわ",
+   "form": "ABAB",
+   "onset1": "h",
+   "onset2": "w",
+   "vowels": "ua",
+   "voiced": false,
+   "semivoiced": false,
+   "geminate": false,
+   "moraic_n": false,
+   "long": false
+  },
+  "どすどす": {
+   "word": "どすどす",
+   "stem": "どす",
+   "form": "ABAB",
+   "onset1": "d",
+   "onset2": "s",
+   "vowels": "ou",
+   "voiced": true,
+   "semivoiced": false,
+   "geminate": false,
+   "moraic_n": false,
+   "long": false
+  },
+  "しゃきしゃき": {
+   "word": "しゃきしゃき",
+   "stem": "しゃ",
+   "form": "unknown",
+   "onset1": null,
+   "onset2": null,
+   "vowels": null,
+   "voiced": null,
+   "semivoiced": null,
+   "geminate": null,
+   "moraic_n": null,
+   "long": null
+  },
+  "すーっ": {
+   "word": "すーっ",
+   "stem": "すー",
+   "form": "ABっ",
+   "onset1": "s",
+   "onset2": "",
+   "vowels": "uu",
+   "voiced": false,
+   "semivoiced": false,
+   "geminate": true,
+   "moraic_n": false,
+   "long": true
+  },
+  "にこにこ": {
+   "word": "にこにこ",
+   "stem": "にこ",
+   "form": "ABAB",
+   "onset1": "n",
+   "onset2": "k",
+   "vowels": "io",
+   "voiced": false,
+   "semivoiced": false,
+   "geminate": false,
+   "moraic_n": false,
+   "long": false
+  },
+  "ざらざら": {
+   "word": "ざらざら",
+   "stem": "ざら",
+   "form": "ABAB",
+   "onset1": "z",
+   "onset2": "r",
+   "vowels": "aa",
+   "voiced": true,
+   "semivoiced": false,
+   "geminate": false,
+   "moraic_n": false,
+   "long": false
+  },
+  "ぱらぱら": {
+   "word": "ぱらぱら",
+   "stem": "ぱら",
+   "form": "ABAB",
+   "onset1": "p",
+   "onset2": "r",
+   "vowels": "aa",
+   "voiced": false,
+   "semivoiced": true,
+   "geminate": false,
+   "moraic_n": false,
+   "long": false
+  },
+  "くるくる": {
+   "word": "くるくる",
+   "stem": "くる",
+   "form": "ABAB",
+   "onset1": "k",
+   "onset2": "r",
+   "vowels": "uu",
+   "voiced": false,
+   "semivoiced": false,
+   "geminate": false,
+   "moraic_n": false,
+   "long": false
+  },
+  "はあー": {
+   "word": "はあー",
+   "stem": "はあ",
+   "form": "ABー",
+   "onset1": "h",
+   "onset2": "",
+   "vowels": "aa",
+   "voiced": false,
+   "semivoiced": false,
+   "geminate": false,
+   "moraic_n": false,
+   "long": true
+  },
+  "わあー": {
+   "word": "わあー",
+   "stem": "わあ",
+   "form": "ABー",
+   "onset1": "w",
+   "onset2": "",
+   "vowels": "aa",
+   "voiced": false,
+   "semivoiced": false,
+   "geminate": false,
+   "moraic_n": false,
+   "long": true
+  }
+ },
+ "distances": [
+  {
+   "a": "きらきら",
+   "b": "きらきら",
+   "distance": 0.0
+  },
+  {
+   "a": "きらきら",
+   "b": "ぎらぎら",
+   "distance": 4.0
+  },
+  {
+   "a": "きらきら",
+   "b": "ころころ",
+   "distance": 3.0
+  },
+  {
+   "a": "きらきら",
+   "b": "ころり",
+   "distance": 5.0
+  },
+  {
+   "a": "きらきら",
+   "b": "ころん",
+   "distance": 5.5
+  },
+  {
+   "a": "きらきら",
+   "b": "ばたばた",
+   "distance": 9.0
+  },
+  {
+   "a": "きらきら",
+   "b": "ふわふわ",
+   "distance": 8.0
+  },
+  {
+   "a": "きらきら",
+   "b": "どすどす",
+   "distance": 9.0
+  },
+  {
+   "a": "きらきら",
+   "b": "しゃきしゃき",
+   "distance": 13.5
+  },
+  {
+   "a": "きらきら",
+   "b": "すーっ",
+   "distance": 11.0
+  },
+  {
+   "a": "きらきら",
+   "b": "にこにこ",
+   "distance": 8.0
+  },
+  {
+   "a": "きらきら",
+   "b": "ざらざら",
+   "distance": 7.0
+  },
+  {
+   "a": "きらきら",
+   "b": "ぱらぱら",
+   "distance": 7.0
+  },
+  {
+   "a": "きらきら",
+   "b": "くるくる",
+   "distance": 3.0
+  },
+  {
+   "a": "きらきら",
+   "b": "はあー",
+   "distance": 10.5
+  },
+  {
+   "a": "きらきら",
+   "b": "わあー",
+   "distance": 10.5
+  },
+  {
+   "a": "ぎらぎら",
+   "b": "ぎらぎら",
+   "distance": 0.0
+  },
+  {
+   "a": "ぎらぎら",
+   "b": "ころころ",
+   "distance": 7.0
+  },
+  {
+   "a": "ぎらぎら",
+   "b": "ころり",
+   "distance": 9.0
+  },
+  {
+   "a": "ぎらぎら",
+   "b": "ころん",
+   "distance": 9.5
+  },
+  {
+   "a": "ぎらぎら",
+   "b": "ばたばた",
+   "distance": 8.0
+  },
+  {
+   "a": "ぎらぎら",
+   "b": "ふわふわ",
+   "distance": 9.0
+  },
+  {
+   "a": "ぎらぎら",
+   "b": "どすどす",
+   "distance": 8.0
+  },
+  {
+   "a": "ぎらぎら",
+   "b": "しゃきしゃき",
+   "distance": 13.5
+  },
+  {
+   "a": "ぎらぎら",
+   "b": "すーっ",
+   "distance": 12.0
+  },
+  {
+   "a": "ぎらぎら",
+   "b": "にこにこ",
+   "distance": 9.0
+  },
+  {
+   "a": "ぎらぎら",
+   "b": "ざらざら",
+   "distance": 6.0
+  },
+  {
+   "a": "ぎらぎら",
+   "b": "ぱらぱら",
+   "distance": 8.0
+  },
+  {
+   "a": "ぎらぎら",
+   "b": "くるくる",
+   "distance": 7.0
+  },
+  {
+   "a": "ぎらぎら",
+   "b": "はあー",
+   "distance": 11.5
+  },
+  {
+   "a": "ぎらぎら",
+   "b": "わあー",
+   "distance": 11.5
+  },
+  {
+   "a": "ころころ",
+   "b": "ころころ",
+   "distance": 0.0
+  },
+  {
+   "a": "ころころ",
+   "b": "ころり",
+   "distance": 2.0
+  },
+  {
+   "a": "ころころ",
+   "b": "ころん",
+   "distance": 2.5
+  },
+  {
+   "a": "ころころ",
+   "b": "ばたばた",
+   "distance": 9.0
+  },
+  {
+   "a": "ころころ",
+   "b": "ふわふわ",
+   "distance": 8.0
+  },
+  {
+   "a": "ころころ",
+   "b": "どすどす",
+   "distance": 9.0
+  },
+  {
+   "a": "ころころ",
+   "b": "しゃきしゃき",
+   "distance": 13.5
+  },
+  {
+   "a": "ころころ",
+   "b": "すーっ",
+   "distance": 11.0
+  },
+  {
+   "a": "ころころ",
+   "b": "にこにこ",
+   "distance": 8.0
+  },
+  {
+   "a": "ころころ",
+   "b": "ざらざら",
+   "distance": 7.0
+  },
+  {
+   "a": "ころころ",
+   "b": "ぱらぱら",
+   "distance": 7.0
+  },
+  {
+   "a": "ころころ",
+   "b": "くるくる",
+   "distance": 3.0
+  },
+  {
+   "a": "ころころ",
+   "b": "はあー",
+   "distance": 10.5
+  },
+  {
+   "a": "ころころ",
+   "b": "わあー",
+   "distance": 10.5
+  },
+  {
+   "a": "ころり",
+   "b": "ころり",
+   "distance": 0.0
+  },
+  {
+   "a": "ころり",
+   "b": "ころん",
+   "distance": 2.5
+  },
+  {
+   "a": "ころり",
+   "b": "ばたばた",
+   "distance": 11.0
+  },
+  {
+   "a": "ころり",
+   "b": "ふわふわ",
+   "distance": 10.0
+  },
+  {
+   "a": "ころり",
+   "b": "どすどす",
+   "distance": 11.0
+  },
+  {
+   "a": "ころり",
+   "b": "しゃきしゃき",
+   "distance": 13.5
+  },
+  {
+   "a": "ころり",
+   "b": "すーっ",
+   "distance": 11.0
+  },
+  {
+   "a": "ころり",
+   "b": "にこにこ",
+   "distance": 10.0
+  },
+  {
+   "a": "ころり",
+   "b": "ざらざら",
+   "distance": 9.0
+  },
+  {
+   "a": "ころり",
+   "b": "ぱらぱら",
+   "distance": 9.0
+  },
+  {
+   "a": "ころり",
+   "b": "くるくる",
+   "distance": 5.0
+  },
+  {
+   "a": "ころり",
+   "b": "はあー",
+   "distance": 10.5
+  },
+  {
+   "a": "ころり",
+   "b": "わあー",
+   "distance": 10.5
+  },
+  {
+   "a": "ころん",
+   "b": "ころん",
+   "distance": 0.0
+  },
+  {
+   "a": "ころん",
+   "b": "ばたばた",
+   "distance": 11.5
+  },
+  {
+   "a": "ころん",
+   "b": "ふわふわ",
+   "distance": 10.5
+  },
+  {
+   "a": "ころん",
+   "b": "どすどす",
+   "distance": 11.5
+  },
+  {
+   "a": "ころん",
+   "b": "しゃきしゃき",
+   "distance": 13.5
+  },
+  {
+   "a": "ころん",
+   "b": "すーっ",
+   "distance": 11.5
+  },
+  {
+   "a": "ころん",
+   "b": "にこにこ",
+   "distance": 10.5
+  },
+  {
+   "a": "ころん",
+   "b": "ざらざら",
+   "distance": 9.5
+  },
+  {
+   "a": "ころん",
+   "b": "ぱらぱら",
+   "distance": 9.5
+  },
+  {
+   "a": "ころん",
+   "b": "くるくる",
+   "distance": 5.5
+  },
+  {
+   "a": "ころん",
+   "b": "はあー",
+   "distance": 11.0
+  },
+  {
+   "a": "ころん",
+   "b": "わあー",
+   "distance": 11.0
+  },
+  {
+   "a": "ばたばた",
+   "b": "ばたばた",
+   "distance": 0.0
+  },
+  {
+   "a": "ばたばた",
+   "b": "ふわふわ",
+   "distance": 9.0
+  },
+  {
+   "a": "ばたばた",
+   "b": "どすどす",
+   "distance": 8.0
+  },
+  {
+   "a": "ばたばた",
+   "b": "しゃきしゃき",
+   "distance": 13.5
+  },
+  {
+   "a": "ばたばた",
+   "b": "すーっ",
+   "distance": 12.0
+  },
+  {
+   "a": "ばたばた",
+   "b": "にこにこ",
+   "distance": 9.0
+  },
+  {
+   "a": "ばたばた",
+   "b": "ざらざら",
+   "distance": 5.0
+  },
+  {
+   "a": "ばたばた",
+   "b": "ぱらぱら",
+   "distance": 7.0
+  },
+  {
+   "a": "ばたばた",
+   "b": "くるくる",
+   "distance": 9.0
+  },
+  {
+   "a": "ばたばた",
+   "b": "はあー",
+   "distance": 8.5
+  },
+  {
+   "a": "ばたばた",
+   "b": "わあー",
+   "distance": 8.5
+  },
+  {
+   "a": "ふわふわ",
+   "b": "ふわふわ",
+   "distance": 0.0
+  },
+  {
+   "a": "ふわふわ",
+   "b": "どすどす",
+   "distance": 9.0
+  },
+  {
+   "a": "ふわふわ",
+   "b": "しゃきしゃき",
+   "distance": 13.5
+  },
+  {
+   "a": "ふわふわ",
+   "b": "すーっ",
+   "distance": 11.0
+  },
+  {
+   "a": "ふわふわ",
+   "b": "にこにこ",
+   "distance": 8.0
+  },
+  {
+   "a": "ふわふわ",
+   "b": "ざらざら",
+   "distance": 9.0
+  },
+  {
+   "a": "ふわふわ",
+   "b": "ぱらぱら",
+   "distance": 9.0
+  },
+  {
+   "a": "ふわふわ",
+   "b": "くるくる",
+   "distance": 8.0
+  },
+  {
+   "a": "ふわふわ",
+   "b": "はあー",
+   "distance": 7.5
+  },
+  {
+   "a": "ふわふわ",
+   "b": "わあー",
+   "distance": 10.5
+  },
+  {
+   "a": "どすどす",
+   "b": "どすどす",
+   "distance": 0.0
+  },
+  {
+   "a": "どすどす",
+   "b": "しゃきしゃき",
+   "distance": 13.5
+  },
+  {
+   "a": "どすどす",
+   "b": "すーっ",
+   "distance": 12.0
+  },
+  {
+   "a": "どすどす",
+   "b": "にこにこ",
+   "distance": 9.0
+  },
+  {
+   "a": "どすどす",
+   "b": "ざらざら",
+   "distance": 8.0
+  },
+  {
+   "a": "どすどす",
+   "b": "ぱらぱら",
+   "distance": 10.0
+  },
+  {
+   "a": "どすどす",
+   "b": "くるくる",
+   "distance": 9.0
+  },
+  {
+   "a": "どすどす",
+   "b": "はあー",
+   "distance": 11.5
+  },
+  {
+   "a": "どすどす",
+   "b": "わあー",
+   "distance": 11.5
+  },
+  {
+   "a": "しゃきしゃき",
+   "b": "しゃきしゃき",
+   "distance": 0.0
+  },
+  {
+   "a": "しゃきしゃき",
+   "b": "すーっ",
+   "distance": 13.5
+  },
+  {
+   "a": "しゃきしゃき",
+   "b": "にこにこ",
+   "distance": 13.5
+  },
+  {
+   "a": "しゃきしゃき",
+   "b": "ざらざら",
+   "distance": 13.5
+  },
+  {
+   "a": "しゃきしゃき",
+   "b": "ぱらぱら",
+   "distance": 13.5
+  },
+  {
+   "a": "しゃきしゃき",
+   "b": "くるくる",
+   "distance": 13.5
+  },
+  {
+   "a": "しゃきしゃき",
+   "b": "はあー",
+   "distance": 13.5
+  },
+  {
+   "a": "しゃきしゃき",
+   "b": "わあー",
+   "distance": 13.5
+  },
+  {
+   "a": "すーっ",
+   "b": "すーっ",
+   "distance": 0.0
+  },
+  {
+   "a": "すーっ",
+   "b": "にこにこ",
+   "distance": 11.0
+  },
+  {
+   "a": "すーっ",
+   "b": "ざらざら",
+   "distance": 12.0
+  },
+  {
+   "a": "すーっ",
+   "b": "ぱらぱら",
+   "distance": 12.0
+  },
+  {
+   "a": "すーっ",
+   "b": "くるくる",
+   "distance": 8.0
+  },
+  {
+   "a": "すーっ",
+   "b": "はあー",
+   "distance": 8.5
+  },
+  {
+   "a": "すーっ",
+   "b": "わあー",
+   "distance": 8.5
+  },
+  {
+   "a": "にこにこ",
+   "b": "にこにこ",
+   "distance": 0.0
+  },
+  {
+   "a": "にこにこ",
+   "b": "ざらざら",
+   "distance": 9.0
+  },
+  {
+   "a": "にこにこ",
+   "b": "ぱらぱら",
+   "distance": 9.0
+  },
+  {
+   "a": "にこにこ",
+   "b": "くるくる",
+   "distance": 8.0
+  },
+  {
+   "a": "にこにこ",
+   "b": "はあー",
+   "distance": 10.5
+  },
+  {
+   "a": "にこにこ",
+   "b": "わあー",
+   "distance": 10.5
+  },
+  {
+   "a": "ざらざら",
+   "b": "ざらざら",
+   "distance": 0.0
+  },
+  {
+   "a": "ざらざら",
+   "b": "ぱらぱら",
+   "distance": 5.0
+  },
+  {
+   "a": "ざらざら",
+   "b": "くるくる",
+   "distance": 7.0
+  },
+  {
+   "a": "ざらざら",
+   "b": "はあー",
+   "distance": 8.5
+  },
+  {
+   "a": "ざらざら",
+   "b": "わあー",
+   "distance": 8.5
+  },
+  {
+   "a": "ぱらぱら",
+   "b": "ぱらぱら",
+   "distance": 0.0
+  },
+  {
+   "a": "ぱらぱら",
+   "b": "くるくる",
+   "distance": 7.0
+  },
+  {
+   "a": "ぱらぱら",
+   "b": "はあー",
+   "distance": 8.5
+  },
+  {
+   "a": "ぱらぱら",
+   "b": "わあー",
+   "distance": 8.5
+  },
+  {
+   "a": "くるくる",
+   "b": "くるくる",
+   "distance": 0.0
+  },
+  {
+   "a": "くるくる",
+   "b": "はあー",
+   "distance": 10.5
+  },
+  {
+   "a": "くるくる",
+   "b": "わあー",
+   "distance": 10.5
+  },
+  {
+   "a": "はあー",
+   "b": "はあー",
+   "distance": 0.0
+  },
+  {
+   "a": "はあー",
+   "b": "わあー",
+   "distance": 3.0
+  },
+  {
+   "a": "わあー",
+   "b": "わあー",
+   "distance": 0.0
+  }
+ ],
+ "nearest": {
+  "きらきら": [
+   [
+    "きらり",
+    2.0
+   ],
+   [
+    "きらっ",
+    2.5
+   ],
+   [
+    "いらいら",
+    3.0
+   ],
+   [
+    "からから",
+    3.0
+   ],
+   [
+    "かりかり",
+    3.0
+   ]
+  ],
+  "ぎらぎら": [
+   [
+    "ぎざぎざ",
+    2.0
+   ],
+   [
+    "ぎらり",
+    2.0
+   ],
+   [
+    "ぎらっ",
+    2.5
+   ],
+   [
+    "がらがら",
+    3.0
+   ],
+   [
+    "がりがり",
+    3.0
+   ]
+  ],
+  "ころころ": [
+   [
+    "こそこそ",
+    2.0
+   ],
+   [
+    "ことこと",
+    2.0
+   ],
+   [
+    "ころり",
+    2.0
+   ],
+   [
+    "ころん",
+    2.5
+   ],
+   [
+    "おろおろ",
+    3.0
+   ]
+  ],
+  "ころり": [
+   [
+    "ことり",
+    2.0
+   ],
+   [
+    "ころころ",
+    2.0
+   ],
+   [
+    "ころん",
+    2.5
+   ],
+   [
+    "からり",
+    3.0
+   ],
+   [
+    "きらり",
+    3.0
+   ]
+  ],
+  "ころん": [
+   [
+    "ころころ",
+    2.5
+   ],
+   [
+    "ころり",
+    2.5
+   ],
+   [
+    "からん",
+    3.0
+   ],
+   [
+    "とろん",
+    3.0
+   ],
+   [
+    "ごろん",
+    4.0
+   ]
+  ],
+  "ばたばた": [
+   [
+    "ばさばさ",
+    2.0
+   ],
+   [
+    "ばたり",
+    2.0
+   ],
+   [
+    "ばらばら",
+    2.0
+   ],
+   [
+    "ばたっ",
+    2.5
+   ],
+   [
+    "ばたん",
+    2.5
+   ]
+  ],
+  "ふわふわ": [
+   [
+    "ふかふか",
+    2.0
+   ],
+   [
+    "ふさふさ",
+    2.0
+   ],
+   [
+    "ふらふら",
+    2.0
+   ],
+   [
+    "ふわり",
+    2.0
+   ],
+   [
+    "ふがふが",
+    3.0
+   ]
+  ],
+  "どすどす": [
+   [
+    "どくどく",
+    2.0
+   ],
+   [
+    "どしどし",
+    3.0
+   ],
+   [
+    "おずおず",
+    5.0
+   ],
+   [
+    "ごうごう",
+    5.0
+   ],
+   [
+    "ごくごく",
+    5.0
+   ]
+  ]
+ }
+}

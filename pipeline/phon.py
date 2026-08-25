@@ -75,6 +75,34 @@ def features(word: str) -> dict:
     }
 
 
+# 音側の距離(N-04)。**TypeScript 側 web/src/lib/phonDist.ts と同一の定義**。
+# 変えるときは両方を同時に変え、gold/phon_cross.json を作り直して O-4 を通すこと。
+WEIGHTS = {
+    "onset1": 3.0, "onset2": 2.0, "vowels": 3.0, "form": 2.0,
+    "voiced": 1.0, "semivoiced": 1.0, "geminate": 0.5, "moraic_n": 0.5, "long": 0.5,
+}
+
+
+def distance(a: str, b: str) -> float:
+    """音側素性のハミング距離(重み付き)。**意味の距離ではない。**"""
+    fa, fb = features(a), features(b)
+    total = 0.0
+    for key, w in WEIGHTS.items():
+        va, vb = fa.get(key), fb.get(key)
+        if va is None or vb is None:
+            total += w if va != vb else 0.0
+        elif va != vb:
+            total += w
+    return round(total, 4)
+
+
+def nearest(word: str, candidates, n: int = 8) -> list[tuple[str, float]]:
+    """音が似た語を返す。同語は含めない。同点は表記順で決める(決定論)。"""
+    scored = [(c, distance(word, c)) for c in candidates if c != word]
+    scored.sort(key=lambda x: (x[1], x[0]))
+    return scored[:n]
+
+
 def table(words) -> dict[str, dict]:
     """語のリストから音側素性表を作る。"""
     return {w: features(w) for w in words}

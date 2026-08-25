@@ -81,3 +81,33 @@ def test_t142_抽出は決定論であり人手介入を持たない():
 def test_t143_未対応の表記は例外にせず不明として返す():
     f = phon.features("しゃきしゃき")  # 拗音を含む 3 モーラ語幹は現行の語彙に無い
     assert f["form"] == "unknown" or f["stem"]
+
+
+# --- 音側の距離(N-04 / O-4 の Python 側) ---
+
+@pytest.mark.unit
+def test_t144_距離は同一語で0():
+    assert phon.distance("きらきら", "きらきら") == 0.0
+
+
+@pytest.mark.unit
+def test_t145_距離は対称である():
+    assert phon.distance("きらきら", "ぎらぎら") == phon.distance("ぎらぎら", "きらきら")
+
+
+@pytest.mark.unit
+def test_t146_濁音だけの違いは小さく語幹が違えば大きい():
+    near = phon.distance("きらきら", "ぎらぎら")
+    far = phon.distance("きらきら", "どすどす")
+    assert 0 < near < far
+
+
+@pytest.mark.unit
+def test_t147_形態だけの違いも距離に出る():
+    assert phon.distance("ころころ", "ころり") > 0
+    assert phon.distance("ころころ", "ころり") < phon.distance("ころころ", "ぱたぱた")
+
+
+@pytest.mark.unit
+def test_t148_未対応の表記でも例外にしない():
+    assert phon.distance("しゃきしゃき", "きらきら") >= 0

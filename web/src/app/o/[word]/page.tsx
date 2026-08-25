@@ -1,4 +1,5 @@
 import { loadIndex, loadQuotes } from "@/lib/data";
+import { nearest } from "@/lib/phonDist";
 import AxisBar from "../../AxisBar";
 import Quote from "../../Quote";
 
@@ -25,6 +26,8 @@ export default async function WordPage({ params }: { params: Promise<{ word: str
   if (!w) return <main><h1>{word}</h1><p>この語は収録していません。</p></main>;
   const quotes = loadQuotes(w.id);
   const p = w.phon;
+  const phons = Object.fromEntries(Object.entries(ix.words).map(([k, v]) => [k, v.phon]));
+  const sound = nearest(word, phons, 8);
 
   return (
     <main>
@@ -58,6 +61,25 @@ export default async function WordPage({ params }: { params: Promise<{ word: str
       </div>
       <p className="meta">
         音の形は表記から機械的に取っています。意味の測定には一切使っていません。
+      </p>
+
+      <h2>音が似ている語</h2>
+      <p className="meta" style={{ marginTop: "-0.4rem" }}>
+        <strong>音の形が似ているだけで、意味が近いとは限りません。</strong>
+        語頭子音・第2子音・母音・形態・濁音などの一致で並べています。表記だけから
+        機械的に出るので、コーパスを変えても結果は変わりません。
+      </p>
+      <p style={{ lineHeight: 2.2 }}>
+        {sound.map((s) => (
+          <a key={s.word} href={`/o/${encodeURIComponent(s.word)}/`}
+             style={{ marginRight: "1.1rem", whiteSpace: "nowrap" }}>
+            {s.word}<span className="meta" style={{ fontSize: "0.75em" }}> {s.distance}</span>
+          </a>
+        ))}
+      </p>
+      <p className="note">
+        意味が近い語は出していません。作品を半分に分けて測り直すと、最も近い語が一致するのは
+        100 回中 12 回しかありませんでした。再現しないものは載せません。
       </p>
 
       <h2>軸の上の位置</h2>

@@ -26,7 +26,8 @@
       "web/public/data/quotes/*",
       "data/examples.json",
       "web/package-lock.json",
-      "web/next-env.d.ts"
+      "web/next-env.d.ts",
+      "gold/phon_cross.json"
     ]
   },
   "secret_scan": true
