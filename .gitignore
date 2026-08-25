@@ -14,3 +14,5 @@ web/.next/
 web/out/
 .vercel/
 data/index_cache/*.csv
+data/cooc_halves.json
+data/cooc_counts.json

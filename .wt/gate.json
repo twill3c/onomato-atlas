@@ -15,7 +15,13 @@
       "data/vocab_manifest.json",
       "data/curated/q01_sample.tsv",
       "data/curated/vocab_proposals.tsv",
-      "data/curated/vocab_decisions.tsv"
+      "data/curated/vocab_decisions.tsv",
+      "data/q02_calibration.json",
+      "data/q02_spearman.json",
+      "data/axes.json",
+      "data/sem.json",
+      "data/cooc_counts.json",
+      "data/cooc_halves.json"
     ]
   },
   "secret_scan": true
