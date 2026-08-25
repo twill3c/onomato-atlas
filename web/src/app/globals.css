@@ -45,3 +45,23 @@ th, td { padding: 0.35rem 0.8rem; border-bottom: 1px solid var(--rule); text-ali
 th { font-weight: 600; color: var(--ink-soft); font-size: 0.8rem; letter-spacing: 0.06em; }
 code, .mono { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 0.88em; }
 footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding-top: 1.5rem; }
+
+/* 対が動く図 */
+.pairs { margin: 1.5rem 0 0.5rem; }
+.pair { position: relative; height: 2.05rem; }
+.pair .track { position: absolute; inset: 0; }
+.pair .seg { position: absolute; top: 50%; height: 1px; background: var(--duration);
+             transform: translateY(-50%); }
+.pair.rough .seg { background: var(--roughness); }
+.pair .dot { position: absolute; top: 50%; width: 7px; height: 7px; border-radius: 50%;
+             transform: translate(-50%, -50%); background: var(--duration); }
+.pair.rough .dot { background: var(--roughness); }
+.pair .dot.from { background: var(--paper); border: 1px solid var(--duration); }
+.pair.rough .dot.from { border-color: var(--roughness); }
+.pair .lab { position: absolute; top: 50%; transform: translateY(-50%);
+             font-size: 0.95rem; white-space: nowrap; letter-spacing: 0.03em; }
+.pair .lab.from { text-align: right; transform: translate(-100%, -50%);
+                  padding-right: 0.6rem; color: var(--ink-soft); }
+.pair .lab.to { padding-left: 0.6rem; color: var(--ink); font-weight: 600; }
+.axisline { position: relative; height: 1px; background: var(--rule); margin: 0.2rem 0 0.6rem; }
+.axisends { display: flex; justify-content: space-between; }
