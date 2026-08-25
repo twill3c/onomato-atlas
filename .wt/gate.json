@@ -21,7 +21,10 @@
       "data/axes.json",
       "data/sem.json",
       "data/cooc_counts.json",
-      "data/cooc_halves.json"
+      "data/cooc_halves.json",
+      "web/public/data/*",
+      "web/public/data/quotes/*",
+      "data/examples.json"
     ]
   },
   "secret_scan": true

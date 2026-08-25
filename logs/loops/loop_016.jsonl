@@ -1,0 +1,1 @@
+{"v": "1.2", "ts": "2026-08-25T21:06:43+09:00", "project": "onomato-atlas", "loop_id": "loop_016", "event": "loop_start", "data": {"goal": "配信データ(語・軸・パラダイム線・音側素性)を web 用に生成し、A の主役画面に必要なものを揃える", "spec_refs": ["F-30", "F-31", "F-32", "F-33", "N-03"], "scaffold_version": "1.12.0", "agent": "claude-code", "model": "claude-opus-5[1m]"}}
