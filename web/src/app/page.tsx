@@ -91,7 +91,8 @@ export default function Home() {
       <p className="meta">
         <a href="/method/">方法と限界をくわしく</a> ・{" "}
         <a href="/words/">語を見る({Object.keys(ix.words).length} 語)</a> ・{" "}
-        <a href="/authors/">作家ごとの傾向</a>
+        <a href="/authors/">作家ごとの傾向</a> ・{" "}
+        <a href="/find/">探す</a>
       </p>
     </main>
   );
