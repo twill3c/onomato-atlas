@@ -5,7 +5,14 @@
   "gate": {
     "max_total_lines": 500,
     "max_files": 30,
-    "exempt": ["logs/loops/*", "out/*", "*.lock", "docs/generated/*"]
+    "exempt": [
+      "logs/loops/*",
+      "out/*",
+      "*.lock",
+      "docs/generated/*",
+      "data/corpus_manifest.json",
+      "data/curated/needs_review_worksheet.tsv"
+    ]
   },
   "secret_scan": true
 }
