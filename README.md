@@ -14,7 +14,7 @@
 
 ## 本番
 
-**https://onomato-atlas.vercel.app**(公開手続き中)
+**https://onomato-atlas.vercel.app**
 
 ## 現在の状態(2026-08-25)
 
