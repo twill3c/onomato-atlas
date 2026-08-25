@@ -55,3 +55,12 @@ def test_t006_カタカナとひらがなが同一語に統合される():
 def test_t007_統合は表記の差だけを畳み_別語を混ぜない():
     got = extract.tally(["ころころ転がる", "ごろごろ転がる"])
     assert set(got) >= {"ころころ", "ごろごろ"}, "濁音の差は別語である"
+
+
+@pytest.mark.unit
+def test_t013_品詞統計を頻度と一緒に取れる():
+    # F-06 の名詞ガード(T-160)が語ごとの品詞分布を要求する
+    freq, pos = extract.tally_with_pos(["星がきらきら光る", "きらきらしたもの"])
+    assert freq["きらきら"] == 2
+    assert sum(pos["きらきら"].values()) == 2
+    assert set(pos) <= set(freq), "品詞統計のキーは頻度表のキーに含まれる"

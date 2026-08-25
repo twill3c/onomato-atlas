@@ -54,3 +54,46 @@ def test_t012_エージェントは未知語を独断で採用しない():
     v = curate.build({"ぬめぬめ": 12}, decisions_path=FIX)
     assert "ぬめぬめ" in v.needs_review
     assert "ぬめぬめ" not in v.adopted
+
+
+# --- F-06 の自動規則のガード(2026-08-25 の Q-01 判定で発見) ---
+
+@pytest.mark.unit
+def test_t160_名詞優勢の変化形は自動採用されず保留になる():
+    """常用名詞と同音の変化形が語幹の採用に便乗して入るのを防ぐ。
+
+    実測 2026-08-25: カタカナ外来語(バター/メリー/パリー)が ABー 型として、
+    和語名詞(うねり/しおり/ぼたん)が ABり/ABん 型として語彙に混入していた。
+    品詞では擬態語と切り分けられない(unidic は「ちろりと見る」も名詞にする)ので、
+    自動採用の対象から外して人手判断に戻す。
+    """
+    freq = {"ばたばた": 100, "ばたー": 389, "ばたり": 27}
+    pos = {"ばたー": {"名詞": 389}, "ばたり": {"副詞": 25, "名詞": 2}}
+    v = curate.build(freq, pos_stats=pos, decisions_path=FIX)
+    assert "ばたー" in v.needs_review, "名詞優勢の変化形は保留へ"
+    assert "ばたー" not in v.adopted
+    assert "ばたり" in v.adopted, "副詞優勢の変化形は従来どおり採用"
+
+
+@pytest.mark.unit
+def test_t161_保留理由に名詞優勢である旨が残る():
+    freq = {"ばたばた": 100, "ばたー": 389}
+    pos = {"ばたー": {"名詞": 389}}
+    v = curate.build(freq, pos_stats=pos, decisions_path=FIX)
+    assert "名詞" in v.reasons["ばたー"]
+
+
+@pytest.mark.unit
+def test_t162_abab型は名詞優勢でも判定表の決定に従う():
+    # ABAB の名詞は正常(実測 2026-08-25: ABAB トークンの 2.5% が名詞)
+    freq = {"きらきら": 50}
+    pos = {"きらきら": {"名詞": 50}}
+    v = curate.build(freq, pos_stats=pos, decisions_path=FIX)
+    assert "きらきら" in v.adopted
+
+
+@pytest.mark.unit
+def test_t163_pos統計を渡さなければ従来どおり動く():
+    freq = {"きらきら": 73, "きらり": 20}
+    v = curate.build(freq, decisions_path=FIX)
+    assert "きらり" in v.adopted

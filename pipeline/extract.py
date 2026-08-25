@@ -78,8 +78,19 @@ def candidates(text: str) -> list[Candidate]:
 
 def tally(texts) -> Counter:
     """表記ゆれ統合後の頻度。キーはひらがな正規形。"""
+    return tally_with_pos(texts)[0]
+
+
+def tally_with_pos(texts) -> tuple[Counter, dict[str, Counter]]:
+    """頻度と、語ごとの品詞分布を同時に返す。
+
+    品詞分布は F-06 の名詞ガード(curate)が使う。実測 2026-08-25: このガードが無いと
+    カタカナ外来語が変化形として語彙に混入する(バター 389 / メリー 192 / パリー 58)。
+    """
     c: Counter = Counter()
+    pos: dict[str, Counter] = {}
     for t in texts:
         for cand in candidates(t):
             c[cand.norm] += 1
-    return c
+            pos.setdefault(cand.norm, Counter())[cand.pos] += 1
+    return c, pos

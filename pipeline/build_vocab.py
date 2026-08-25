@@ -116,12 +116,15 @@ def build(texts, min_freq: int = 5, decisions_path=None) -> dict:
     `decisions_path` はテストが本番の判定表に結合しないための注入口。本番表は curation の
     進行で正当に増えるので、テストが直接読むと正しい変更で落ちる(2026-08-25 に実際に落ちた)。
     """
-    tal = extract.tally(texts)
+    tal, pos = extract.tally_with_pos(texts)
     kept = {w: c for w, c in tal.items() if c >= min_freq}
-    v = curate.build(kept, decisions_path=decisions_path)
+    v = curate.build(kept, decisions_path=decisions_path, pos_stats=pos)
     manifest = v.manifest()
     for w, rec in manifest.items():
         rec["freq"] = kept.get(w, 0)
+        if w in pos:
+            total = sum(pos[w].values())
+            rec["noun_ratio"] = round(pos[w].get("名詞", 0) / total, 3) if total else 0.0
     return {
         "vocab": manifest,
         "adopted": sorted(v.adopted),

@@ -21,6 +21,11 @@ DECISIONS_PATH = Path(__file__).resolve().parents[1] / "data" / "curated" / "voc
 _VERSION_RE = re.compile(r"^#\s*vocab_decisions\s+v(?P<v>\d+\.\d+\.\d+)")
 
 REASON_NO_STEM = "語幹が ABAB 型として語彙に存在しない(F-06)"
+REASON_NOUN_HEAVY = (
+    "変化形だが出現の過半が名詞。常用名詞との同音が疑われるため自動採用しない(F-06 ガード)"
+)
+# 「過半」は定義であって較正した閾値ではない。変更するときは SPEC F-06 を先に直す
+NOUN_MAJORITY = 0.5
 REASON_UNKNOWN = "curation 表に無い未知語。人手の採否判断が必要(AGENTS.md §2)"
 REASON_FORCED_REVIEW = "判定困難として明示的に保留された"
 
@@ -65,9 +70,24 @@ class Vocab:
         return out
 
 
+def _noun_heavy(word: str, pos_stats: dict | None) -> bool:
+    """出現の過半が名詞か。pos_stats が無ければ判定しない(後方互換)。"""
+    if not pos_stats or word not in pos_stats:
+        return False
+    counts = pos_stats[word]
+    total = sum(counts.values())
+    return bool(total) and counts.get("名詞", 0) / total > NOUN_MAJORITY
+
+
 def build(freq: dict[str, int], needs_review: set[str] | None = None,
-          decisions_path: Path | None = None) -> Vocab:
-    """頻度表から語彙を確定する。freq のキーは表記ゆれ統合済みであること(F-04)。"""
+          decisions_path: Path | None = None,
+          pos_stats: dict[str, dict[str, int]] | None = None) -> Vocab:
+    """頻度表から語彙を確定する。freq のキーは表記ゆれ統合済みであること(F-04)。
+
+    `pos_stats`(語 → 品詞カウント)を渡すと、変化形の自動採用に名詞ガードがかかる。
+    実測 2026-08-25: このガードが無いと カタカナ外来語(バター/メリー/パリー)と
+    和語名詞(うねり/しおり/ぼたん)が語幹の採用に便乗して混入する。
+    """
     version, table = load_decisions(decisions_path)
     forced = set(needs_review or ())
     v = Vocab(version=version)
@@ -92,7 +112,10 @@ def build(freq: dict[str, int], needs_review: set[str] | None = None,
         if is_reduplication(norm) or norm in v.reasons:
             continue
         stem = norm[:2] * 2
-        if stem in v.adopted:
+        if stem in v.adopted and _noun_heavy(norm, pos_stats):
+            v.needs_review.add(norm)
+            v.reasons[norm] = REASON_NOUN_HEAVY
+        elif stem in v.adopted:
             v.adopted.add(norm)
             v.reasons[norm] = f"語幹 {stem} が採用済み(F-06 自動規則)"
         else:

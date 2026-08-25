@@ -15,6 +15,7 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 PROPOSALS = ROOT / "data" / "curated" / "vocab_proposals.tsv"
 MANIFEST = ROOT / "data" / "vocab_manifest.json"
+DECISIONS = ROOT / "data" / "curated" / "vocab_decisions.tsv"
 VALID = {"adopted", "rejected", "hold"}
 
 
@@ -25,16 +26,32 @@ def _rows():
 
 
 @pytest.mark.unit
-def test_t150_提案は現在の保留語を全件覆う():
-    """シートは curation 1 巡分の記録であり、承認が進むと保留側だけが減る。
+def test_t150_承認した採用が判定表に反映されている():
+    """シートと live manifest を結合させない(HC-004)。
 
-    等号で書くと承認した瞬間に落ちる(2026-08-25 に実際に落ちた)。
-    正しい不変量は「現在の保留語がシートに含まれる」という包含関係。
+    保留語は curation の承認で減り、新しい規則(F-06b 名詞ガード等)で増える。
+    どちらの向きにも動くので、シートと manifest の集合関係を不変量にしてはならない
+    (等号でも包含でも落ちた。2026-08-25 に 2 度)。
+    ここで確かめるのは「承認したものが判定表に届いているか」という一方向の整合だけ。
     """
-    nr = set(json.loads(MANIFEST.read_text(encoding="utf-8"))["needs_review"])
-    words = {r["word"] for r in _rows()}
-    missing = nr - words
-    assert missing == set(), f"提案シートに無い保留語がある: {sorted(missing)[:10]}"
+    approved = {r["word"] for r in _rows() if r["approved"].strip() == "adopted"}
+    if not approved:
+        pytest.skip("まだ承認された語が無い")
+    decided = {}
+    for line in DECISIONS.read_text(encoding="utf-8").splitlines():
+        if line.startswith("#") or line.startswith("word	") or not line.strip():
+            continue
+        w, dec, _ = line.split("	", 2)
+        decided[w] = dec
+    missing = {w for w in approved if decided.get(w) != "adopted"}
+    assert missing == set(), f"承認したのに判定表へ届いていない語: {sorted(missing)[:10]}"
+
+
+@pytest.mark.unit
+def test_t154_シートに同じ語が二度出ない():
+    words = [r["word"] for r in _rows()]
+    dupes = {w for w in words if words.count(w) > 1}
+    assert dupes == set(), f"重複: {sorted(dupes)[:10]}"
 
 
 @pytest.mark.unit
