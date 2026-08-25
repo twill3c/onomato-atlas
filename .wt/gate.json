@@ -13,7 +13,9 @@
       "data/corpus_manifest.json",
       "data/curated/needs_review_worksheet.tsv",
       "data/vocab_manifest.json",
-      "data/curated/q01_sample.tsv"
+      "data/curated/q01_sample.tsv",
+      "data/curated/vocab_proposals.tsv",
+      "data/curated/vocab_decisions.tsv"
     ]
   },
   "secret_scan": true
