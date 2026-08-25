@@ -65,3 +65,14 @@ footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding-top: 1.5re
 .pair .lab.to { padding-left: 0.6rem; color: var(--ink); font-weight: 600; }
 .axisline { position: relative; height: 1px; background: var(--rule); margin: 0.2rem 0 0.6rem; }
 .axisends { display: flex; justify-content: space-between; }
+
+/* fleet: fixed footer */
+.site-footer {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 9000;
+  margin: 0; padding: 0.5rem 1rem; text-align: center;
+  background: var(--paper); border-top: 1px solid var(--rule);
+  max-height: 30vh; overflow-y: auto;
+}
+.site-footer .meta { margin: 0.1rem 0; }
+main { padding-bottom: 7rem; }
+@media (max-width: 640px) { main { padding-bottom: 9.5rem; } }

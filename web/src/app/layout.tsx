@@ -13,16 +13,45 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ja">
       <body>
         {children}
-        <footer>
-          <main style={{ padding: "0 1.25rem 3rem" }}>
-            <p className="meta">
-              音象アトラス — コード MIT / 自作データ CC BY 4.0 /
-              引用本文は青空文庫(パブリックドメイン・底本表記つき)
-            </p>
-            <p className="meta">
-              <a href="/method/">方法と限界</a>
-            </p>
-          </main>
+        <footer className="site-footer">
+          <p className="meta">
+            音象アトラス — 自作データ CC BY 4.0 /
+            引用本文は青空文庫(パブリックドメイン・底本表記つき) ・{" "}
+            <a href="/method/">方法と限界</a>
+          </p>
+          <p className="meta">
+            <a
+              href="https://github.com/twill3c/onomato-atlas/blob/main/LICENSE"
+              target="_blank"
+              rel="noopener"
+            >
+              MIT License
+            </a>{" "}
+            © 2026 坂田哲朗 ・{" "}
+            <a href="https://github.com/twill3c/onomato-atlas" target="_blank" rel="noopener">
+              GitHub
+            </a>{" "}
+            ・{" "}
+            <a
+              href="https://claude.ai/code/artifact/e5f3ef35-95c6-440c-9574-970206449c41"
+              target="_blank"
+              rel="noopener"
+            >
+              音象アトラスの歩き方
+            </a>{" "}
+            ・{" "}
+            <a
+              href="https://claude.ai/code/artifact/90b68bcb-2a86-4235-ab99-18618f3447b5"
+              target="_blank"
+              rel="noopener"
+            >
+              音象アトラス設計図
+            </a>{" "}
+            ・{" "}
+            <a href="https://app-menu-amber.vercel.app" target="_blank" rel="noopener">
+              App Menu
+            </a>
+          </p>
         </footer>
       </body>
     </html>
